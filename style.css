@@ -1,5 +1,9 @@
 *
+body{
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/solution-background_desktop-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=980&qlt=100&fmt=png-alpha&fit=constrain");
+object-fit: cover;
 
+}
 .nav-left{
     display: flex;
 box-sizing: border-box;
@@ -58,6 +62,7 @@ select{
     display: flex;
    
     justify-content: space-between;
+    width: 100%;
 }
 .rightmost{
     transform: translateX(-110px);
@@ -105,7 +110,8 @@ select{
     }
     header{
         margin: 0px;
-        object-fit: cover;
+        object-fit: contain;
+        width: 100%;
     }
 
 .header-img video{
@@ -276,7 +282,7 @@ box-sizing: border-box;
 color: rgb(23, 37, 61);
 display: grid;
 grid-template-columns: 445px 444px 470px ;
-flex-direction: column;
+/* flex-direction: column; */
 font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 16px;
 font-weight: 400;
@@ -298,8 +304,6 @@ height: 440px;
 border-radius: 23px;
 border: 2px solid #d9dfe1;
 background-color: #fefefe;
-/* align-items: center; */
-/* justify-content: center; */
 
 
 
@@ -422,6 +426,10 @@ line-height: 24px;
 .middle p{
     border-color: #f4fafd;
 }
+.solution{
+     /* transform: translateX(50px); */
+     margin-left: 250px;
+}
 .solution p{
 padding-top: 73px;
 font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -435,12 +443,13 @@ font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif
 font-size: 32px;
 font-weight: 600;
 letter-spacing: -1.2px;
-width: 680px;
+width: 100%;
 margin-top: -1px;
 }
 .paanch-btn{
     display: flex;
     column-gap: 10px;
+    margin-top: 30px;
     
 }
 .poo button{
@@ -515,13 +524,11 @@ font-size: 15px;
 font-weight: 600;
 }
   .scroll {
- /* background-color */
- margin: 50px;
+    display: flex;
+ margin-top: 50px;
  margin-bottom: 20px;
  font-size: 18px;
  width: 100%;
- /* border-bottom-style: ridge; */
- /* align-items: center; */
  
   }  
   
@@ -532,11 +539,51 @@ font-weight: 600;
   }
 
   .scroll-bar div{
-    margin: 50px;
+    margin: 39px;
  padding-left: 18px;
  font-size: 18px;
- width: 30%;
+ width: 100%;
  border-bottom-style: ridge;
   }  
   
+  .scroll-ig{
+    padding-left: 340px;
+  }
+  .scroll-bar{
+    margin-top: -50px;
+    width: 24%;
+    overflow: scroll;
+    overflow-X: hidden;
+
+  }
+  .scroll-ig img{
+    margin-top:-13px;
+border-radius: 22px;
+transform: translateX(-40px);
+object-fit: cover;
+position: absolute;
+
+    }
   
+.scroll-ig button{
+    /* width: 50px; */
+    /* height: 40px; */
+    /* object-fit: cover; */
+    /* position: absolute; */
+}
+.square{
+   display: inline-block;
+   justify-content: center;
+   align-items: center;
+   
+}
+.square img{
+    justify-content: center;
+   border-radius: 4px;
+   justify-content: center;
+   align-items: center;
+   padding-left: 268px;
+   transform: translateY(200px);
+   object-fit: cover;
+
+}
