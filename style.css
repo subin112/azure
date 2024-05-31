@@ -1,5 +1,4 @@
 
-   
 
 
 .nav-left{
@@ -108,7 +107,7 @@ select{
     }
     header{
         margin: 0px;
-        object-fit: contain;
+        object-fit: cover;
         width: 100%;
     }
 
@@ -125,9 +124,9 @@ letter-spacing: -0.48px;
 line-height: 24px;
 object-fit: cover;
 text-align: left;
-width: 1850px;
+width: 1840px;
 margin-left: -20px;
-    /* margin: 0px; */
+    margin: 0px;
 
 }
 .second {
@@ -418,19 +417,24 @@ line-height: 24px;
     background: #f4fafd;
 }
 .middle{
+
     background-color: #f4fafd;
     border-bottom-color: #f4fafd;
    
 }
 .middle p{
     border-color: #f4fafd;
+    
 }
 .solution{
-     background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/product-background_desktop_homepage?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=1129&qlt=100&fmt=png-alpha&fit=constrain");
+     background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/solution-background_desktop-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=980&qlt=100&fmt=png-alpha&fit=constrain");
      margin-top: -11px;
      margin-right: -10px;
-     object-fit: cover;
+     /* object-fit: cover; */
      padding-left: 250px;
+     /* width: 100%; */
+     /* min-width: 1584px; */
+     
 }
 .solution p{
 padding-top: 73px;
@@ -445,7 +449,7 @@ font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif
 font-size: 32px;
 font-weight: 600;
 letter-spacing: -1.2px;
-width: 100%;
+/* width: 100%; */
 margin-top: -1px;
 }
 .paanch-btn{
@@ -589,6 +593,9 @@ position: absolute;
     /* justify-content: flex-start */
     padding-top: 40px;
     gap: 7px;
+    text-align: center;
+    margin-bottom: 90px;
+
 }
 .unni button{
     width: 34px;
@@ -620,8 +627,31 @@ font-size: 32px;
 font-weight: 600;
 letter-spacing: -1.6px;
 line-height: 40px;
-margin-top: -9px;
-}   
+/* margin-top: -30px; */
+}  
+.product-ser{
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/product-background_desktop_homepage?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=1129&qlt=100&fmt=png-alpha&fit=constrain");
+align-items: center;
+padding-left: 220px;
+
+}
+.product{
+    margin-top: -90px;
+    margin-left: 27px;
+} 
+.product p{
+    padding-top: 90px;
+    box-sizing: border-box;
+color: rgb(23, 37, 61);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 11px;
+font-weight: 570;
+letter-spacing: 0.96px;
+margin-bottom: 0px;
+}
+.product h2{
+    
+}
  .product-ser .so{
     width: 109px;
     height: 40px;
@@ -699,16 +729,20 @@ line-height: 24px
     display: flex;
     gap: 10px;
     padding-top: 20px;
+    margin-left: 20px;
+
 }
 .full-box{
     background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/ACOM-HP-Desktop-ENUS-Product-PromoCard-Phi3-Overlay@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=320&hei=560&qlt=100&fmt=png-alpha&fit=constrain");
     /* position: absolute; */
-    height: 564px;
+    height: 566px;
 width:318px;
 margin-top: 50px;
-border-radius: 25px;
+ border-radius: 15px;
 object-fit: cover;
 background-repeat: no-repeat;
+border-bottom-right-radius: 24px;
+border-bottom-left-radius: 24px;
 
 }
 .full-box h3{
@@ -720,7 +754,7 @@ letter-spacing: -1.6px;
 line-height: 50px;
 justify-content: center;
 margin-left: 25px;
-transform: translateY(338px);
+float: left;
 
 }
 
@@ -752,23 +786,29 @@ transform: translateY(190px);
 font-size: 14.1px;
 font-weight: 550;
 letter-spacing: -0.3px;
-transform: translateY(188px);
+padding-left: 30px;
+/* transform: translateY(188px); */
 }
 .grid-around{
     display: grid;
     margin-top: 50px;
-    grid-template-columns: 300px 300px 300px ;
+    grid-template-columns: 305px 305px 306px ;
     grid-template-rows: 260px 260px;
-    width: 10%;
-    gap: 30px;
-    transform: translateX(20px);
+    /* width: 10%; */
+    gap: 28px;
+    transform: translateX(15px);
     /* justify-content: space-between; */
 }
 .space-full{
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/micr…1600&hei=1129&qlt=100&fmt=png-alpha&fit=constrain");
     display: flex;
+    
+    margin-left: 23px;
+    /* padding-right: 30px; */
+    /* margin-right: -29px; */
 }
 .grid-1{
-    height: 279px;
+    height: 275px;
     display: block;
 box-sizing: border-box;
     width: 318px;
@@ -776,6 +816,7 @@ color: rgb(23, 37, 61);
 border-radius: 27px;
 background-color: #fefefe;
 border: 1px solid #d9dfe1;
+
 /* border-color: #dde0e3; */
 }
 .grid-1 h4 {
@@ -829,50 +870,60 @@ text-decoration: underline ;
 }
 
 .gartner{
+    margin-top: 280px;
     background-color: #fefefe;
-    margin: 0px;
     display: flex;
     height: 489px;
     padding: 10px;
     border-radius: 20px;
     border: 2px solid #e2e8eb;
-    width: 1299px;
-    transform: translateX(-335px);
+    width: 1295px;
+    /* transform: translateX(335px); */
+    align-items: center;
+    margin-left: 25px;
    
     
     
 }
 .gart{
+    margin-top: 30px;
     width: 100%;
     padding-top: 150px;
-    align-items: flex-start;
+    /* align-items: flex-start; */
 box-sizing: border-box;
 color: rgb(23, 37, 61);
+
     
 }
 .img img{
     border-radius: 20px;
-    margin-top: px;
+    /* margin-left: 50px; */
+    /* margin-top: px; */
 }
 .gart h1{
 box-sizing: border-box;
 color: rgb(14, 23, 38);
 font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 32px;
-font-weight: 600;
-letter-spacing: -1.2px;
+font-size: 29px;
+font-weight: 580;
+letter-spacing: -1.1px;
 line-height: 40px;
 
 }
 .gart span{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 color: rgb(23, 37, 61);
 font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 15px;
+font-size: 14.5px;
 font-weight: 400;
 letter-spacing: -0.48px;
 line-height: 24px;
-margin-left: 30px;
+margin: 30px;
+width: 30%;
+text-align: left;
+width: 572;
+height: 72;
+
 }
 .gart button{
 background-color: #0078d4;
@@ -888,7 +939,7 @@ font-size: 15px;
 font-weight: 500;
 letter-spacing: -0.3px;
 line-height: 22px;
-margin-top: 30px;
+margin-top: 18px;
 }
 .half{
     display: block;
@@ -898,10 +949,11 @@ margin-top: 30px;
     box-sizing: border-box;
 color: rgb(14, 23, 38);
 font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 40px;
-font-weight: 509;
+font-size: 41px;
+font-weight: 559;
 letter-spacing: -2px;
 line-height: 48p;
+width: 100%;
 }
 .list {
     display: flex;
@@ -921,6 +973,99 @@ text-align: center;
 .mop{
     display: flex;
 }
+    .kop{
+display: flex;
+padding-top: 50px;
+    }
+    
+.half{
+    margin-top: 59px;
+    padding-right: 250px;
+
+}
+.list-pop{
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/resources-background_desktop@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=768&qlt=85&fmt=png-alpha&fit=constrain");
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border: 2px solid #e2e8eb;
+    width: 80%;
+    background-color: #fefefe;
+    display: flex;
+    /* flex-direction: column; */
+    column-gap: 20px;
+    height: 64px;
+    text-align: center;
+    /* justify-content: space-evenly; */
+    border-radius: 19px;
+    padding-left: 30px;
+}
+.list-pop span{
+    padding-top: 33px;
+}
+.list-pop .mop{
+    display: flex;
+    gap: 140px;
+    margin-top: -10px;
+    padding-left: 60px;  
+}
+.list-pop .mop span::before{
+ content: "|";
+}
+.list-pop{
+    box-sizing: border-box;
+}
+.cheveron{
+     background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/resources-background_desktop@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=768&qlt=85&fmt=png-alpha&fit=constrain");
+  height: 825px;
+object-fit: cover;
+margin: 0px;
+background-repeat: no-repeat;
+max-width: 1844px;
+
+     background-size: 100% auto;
+  background-repeat: no-repeat; /* Optional: prevents the image from repeating */
+  background-position: center;
+}
+.cheveron div{
+   display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+align-items: baseline;
+gap: 10px
+    
+}
+.cheveron button{
+    color: #e2e8eb;
+    height:34.7px;
+    width: 35px;
+    border-radius: 7px;
+    border: none;
+    background-color: #0078d4;
+}
+.cheveron p{
+    box-sizing: border-box;
+color: rgb(0, 66, 117);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 13px;
+font-weight: 600;
+letter-spacing: -0.48px;
+}
+.cheveron h1{
+    color: rgb(14, 23, 38);
+
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 24px;
+font-weight: 600;
+letter-spacing: -1.2px;
+line-height: 32px;
+margin-top: 45px;
+width: 100%;
+text-align: center;
+transform: translateX(-120px)
+}
+
+
 
 
 
