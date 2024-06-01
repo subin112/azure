@@ -433,7 +433,10 @@ line-height: 24px;
      /* object-fit: cover; */
      padding-left: 250px;
      /* width: 100%; */
-     /* min-width: 1584px; */
+       background-size: 100% auto;
+  background-repeat: no-repeat; /* Optional: prevents the image from repeating */
+  background-position: center;
+     
      
 }
 .solution p{
@@ -649,9 +652,8 @@ font-weight: 570;
 letter-spacing: 0.96px;
 margin-bottom: 0px;
 }
-.product h2{
+
     
-}
  .product-ser .so{
     width: 109px;
     height: 40px;
@@ -944,6 +946,22 @@ margin-top: 18px;
 .half{
     display: block;
     text-align: center;
+    padding-top: 70px;
+    
+}
+.half p{
+    height: 16px;
+    width: 100%;
+    box-sizing: border-box;
+color: rgb(23, 37, 61);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 10px;
+font-weight: 550;
+letter-spacing: 0.96px;
+line-height: 16px;
+margin-bottom: 8px;
+text-align: center;
+text-transform: uppercase;
 }
 .half h1{
     box-sizing: border-box;
@@ -954,6 +972,7 @@ font-weight: 559;
 letter-spacing: -2px;
 line-height: 48p;
 width: 100%;
+margin-top: -1px;
 }
 .list {
     display: flex;
@@ -1016,15 +1035,16 @@ padding-top: 50px;
 }
 .cheveron{
      background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/resources-background_desktop@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=768&qlt=85&fmt=png-alpha&fit=constrain");
-  height: 825px;
+  height: 760px;
 object-fit: cover;
-margin: 0px;
-background-repeat: no-repeat;
-max-width: 1844px;
-
+margin-top: -44px;
+/* background-repeat: no-repeat; */
+/* max-width: 1844px; */
+width: 100%;
      background-size: 100% auto;
   background-repeat: no-repeat; /* Optional: prevents the image from repeating */
   background-position: center;
+
 }
 .cheveron div{
    display: flex;
@@ -1062,11 +1082,275 @@ line-height: 32px;
 margin-top: 45px;
 width: 100%;
 text-align: center;
-transform: translateX(-120px)
+/* transform: translateX(-120px) */
+padding-top: 40px;
+
+}
+.relax img{
+    padding: 20px;
+    margin: 40px;
+    border-radius: 30px;
+}
+.global img{
+    margin-left: -8px;
+    margin-right: -10px;
+    object-fit: cover;
+
+}
+.global{
+   display: flex; 
+   /* position: absolute; */
+}
+.global h1{
+    position: absolute;
+    /* position: fixed; */
+    margin-top: -120px;
+    box-sizing: border-box;
+color: rgb(244, 250, 253);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 40px;
+font-weight: 600;
+letter-spacing: -2px;
+/* line-height: 48px; */
+margin-bottom: 0px;
+/* margin-top: 0px; */
+text-align: center
+
+  
+}
+.global p{
+    position: absolute;
+    box-sizing: border-box;
+color: rgb(220, 238, 248);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 20px;
+font-weight: 400;
+letter-spacing: -0.6px;
+/* line-height: 32px; */
+margin-bottom: 0px;
+/* text-align: center;;/ */
+margin-top: -20px;
+
+}
+.global button{
+    position: absolute;
+    margin-top: 130px;
+    height: 52px;
+    width: 153px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(179, 218, 240);
+    cursor: pointer;
+display: block;
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: 600;
+    
+}
+.glob{
+    /* position: absolute; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
+.master p{
+    display: block;
+    /* margin-top: -30px; */
+    margin-left: 30px;
+    padding-left:230px;
+    /* margin-top: 56px; */
+    color: rgb(23, 37, 61);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 12px;
+font-weight: 600;
+letter-spacing: 0.96px;
+line-height: 16px;
+}
+.master h2{
+    margin: 20px;
+    padding-left: 239px;
+    color: rgb(14, 23, 38);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 30px;
+font-weight: 600;
+letter-spacing: -1.6px;
+}
+.stories{
+    background-color: #f4fafd;
+}
+.lego{
+     background-color: #fefefe;
+    display: flex;
+    height: 530.65px;
+    padding: 10px;
+    border-radius: 24px;
+    border: 2px solid #e2e8eb;
+    width: 1295px;
+    transform: translateX(251px);
+    align-items: center;
+    /* border:0.7px dashed black; */
+    margin-top: 0px;
+
+
+}
+.AKS{
+    display: block;
+}
+.quarter{
+    transform: translateY(-120px);
+    margin-left: 15px;
+   
+}
+.quarter img{       
+height: 75px;
+width: 174px;
+border: 1px solid #bdc5d2;
+border-radius: 8px;
+}
+.edge{
+display: flex;
+}
+.master p{
+    padding-top: 80px;
+    margin-top: -1px;
+}
+.foreign img{
+    border-radius: 20px;
+    margin-top: 5px;
+    padding-right: -5px;
+}
+.writings h2{
+    /* padding-bottom: 200px; */
+    transform: translateY(-120px);
+    box-sizing: border-box;
+color: rgb(23, 37, 61);
+display: block;
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 24px;
+font-weight: 600;
+letter-spacing: -1.2px;
+line-height: 32px;
+margin-left: 16px;
+/* overflow-wrap: break-word; */
+/* text-align: left */
+}
+
+.AKS button{
+   border: none;
+   height: 52px;
+   width: 105.983;
+   box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: pointer;
+background-color: #0078d4;
+/* display: block; */
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15px;
+font-weight: 600;
+justify-content: center;
+letter-spacing: -0.3px;
+line-height: 22px;
+overflow-wrap: break-word;
+padding-bottom: 12px;
+padding-left: 16px;
+padding-right: 16px;
+padding-top: 12px;
+border-radius: 9px;
+transform: translateY(100px);
+}
+.seeman{
+    
+    display: flex;
+    width: 55%;
+    height: 122.2px;
+    border: 2px solid #d0d5d8;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 400px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: #fefefe;
+    
+}
+.boxer{
+    /* background-color: white; */
+    border-right: 1px solid #e2e2e2;
+    border-top: none;
+    height:120px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+.boxer img{
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.janco button{
+    height: 35px;
+    width: 34.7;
+     color: #e2e8eb;
+    height:34.7px;
+    width: 35px;
+    border-radius: 7px;
+    border: none;
+    background-color: #0078d4;
+}
+.janco{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 260px ;
+    gap: 9px;
+    margin-top: 25px;
+}
+.janco p{
+
+color: rgb(0, 66, 117);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: 600;
+letter-spacing: -0.48px
+}
+.pro{
+    display: grid;
+    grid-template-columns: 448px 448px 448px ;
+    /* grid-template-rows: 1fr; */
+    /* position: center; */
+    justify-content: center;
+    position: absolute;
+
+}
+.groot{
+    width: 429.33px;
+    height: 259px;
+    border: 2px solid #dadfe1;
+    border-radius: 20px;
+    /* position: absolute; */
+    background-color: #fefefe;
+    
+
+}
+.last-grid{
+    /* justify-content: center; */
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CTA-BG-desktop@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=512&qlt=100&fmt=png-alpha&fit=constrain");
+    height: 547px;
+    width: 1835px;
+     width: 100%; /* or any specific width you want */
+            overflow: auto; 
+    /* dke dij die ifj  difdj feiod idfeiwoei soifjeifj sifoeif i idfwo sosihfe isfoei aoidfow idoie aifoieoi difjoweif qifoeiu aifoie iajfieo iajfoiaje aoijf wi ijfwei aijf */
+}
+.foo{fjoefiji
+}heifhu
 
 
 
 
+
+.{;}
 
