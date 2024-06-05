@@ -138,14 +138,11 @@ line-height: 19px;
 }
 .first{
     width: 100%;
-    max-width: 1700px;
+    /* max-width: 1700px; */
+    height: 662px;
+     
 }
    
-  
-.body{
-    margin: 0px;
-    width: 100%;
-}
     .Azure3 button{
          width: 100%;
          
@@ -204,11 +201,12 @@ line-height: 32px;
 
 }
 .nav-like{
-    /* z-index: 1; */
+    z-index: 1;
     display: flex;
     color: #1a1a1f;
     width: 100%;
     margin-left: 0px;
+    justify-content: space-around;
 }
 .btn{
     height: 44px;
@@ -253,24 +251,31 @@ padding-bottom: 2px;
 text-align: center
 }
 .nav-like{
-    margin-top: -289px;
+    /* display: flex; */
+    margin-top: 0;
     /* background-color: #89c402; */
     /* display: flex; */
     justify-content: space-around;
     border-bottom-style: inset;
-    height: 50px;
+    height: 10px;
+    position: absolute;
+    
 }
 .new{
     display: flex;
 column-gap: 48px;
-display: flex;
-flex-wrap: wrap;
+/* display: flex; */
+/* flex-wrap: wrap; */
 font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 13px;
 font-weight: 600;
 letter-spacing: -0.48px;
 color: rgb(0, 103, 184);
 
+
+    }
+    .new p{
+        display: flex;
     }
     .Azure3 button{
         width: 140px;
@@ -287,6 +292,7 @@ color: rgb(0, 103, 184);
     .Azure3{
         padding-top: 4px;
         padding-left: 39px;
+        
     }
     .feature{
      padding-left: 246px;
@@ -465,10 +471,11 @@ line-height: 24px;
 }
 .middle p{
     border-color: #f4fafd;
-    margin-top: 0px;
+    margin-top: 10px;
     /* padding-top: 100px; */
     margin-bottom: 30px;
     align-items: center;
+    width: 100%;
     /* padding: 10px; */
     
     
@@ -608,7 +615,7 @@ font-weight: 600;
   }
   .scroll-bar{
     margin-top: -50px;
-    width: 24%;
+    width: 29%;
     overflow: scroll;
     overflow-X: hidden;
 
@@ -1759,6 +1766,8 @@ transform: translateX(-9px);
     /* width: 150px; */
 }
 .relax1 button{
+    margin: 0px;
+    padding: 0px;
     height: 50px;
     width: 150.67px;
     /* transform: translateX(10px); */
@@ -1770,66 +1779,384 @@ transform: translateX(-9px);
 
 
  /* Mobile resposive */
- @media screen and (max-width:540px) {
-   /* .nav{
-    margin: 0; */
-    /* display: flex;
-   }
-   .rightmost{
-    display:none;
-    
-   }
-   .rightmost button{
-    justify-content: space-between;
-
-   }
-   .first video{
-     position: cover;
-     margin-right: 0;
-   }
-   .
+ @media (max-width:540px) {
+ .nav{
+    max-width: 540px;
+    height: 78px;
 
  }
-  */
-
-
-/* Tablet view */
-@media screen and (max-width:1030px) {
+ .nav-one{
+    display: none;
     
-   .nav{
-       margin:0;
-   }
-   .nav{
-   margin-right: 0;
-   padding-right: 0;
+ }
+ nav{
+    display: block;
+    justify-content: space-between;
+ }
+ .nav-right{
+    /* display: none; */
+float: right;
+justify-content: end;
+width: 100%;
+ }
+ .search {
+    align-items: end;
+    float: right;
+    margin-left: 200px;
+ }
+ .rightmost {
+    display: none;
+ }
+ .header-img video{
+    margin: 0;
+    max-width: 540px;
+    height: 456px;
+ }
+ .second{
+    object-fit: contain;
+    width: 60%;
+    margin: 10px;
+    text-align: left;
+    margin-left: -80px;
+    max-width: 400px;
+    max-height: 100px;
+    /* margin-left: 30px; */
+    
+  
+ }
 
+ 
 
-   }
+ .second  h1{
+    /* size: 18px; */
+    display: block;
+  width: 100%;
+font-size: 32px;
+font-weight:400;
+letter-spacing: -1px;
+line-height: 40px;
+}
+.second p{
+display: block;
+font-size: 12px;
+font-weight: 560;
+letter-spacing: 0.96px;
+}
+.second h3{
+    display: block;
+font-weight: 400;
+}
+  
+    
+
+ .new {
+display: contents; 
+ }
+ .new p{
+ display: none;
+  }
+  .btn{
+    display: block;
+    
+}
+
+.btn1 button{
+    width: 450px;
+    height: 52px;
+    margin-left: -130px;
 
 
 }
+.btn2 button{
+    width: 450px;
+    height: 52px;
+    margin: 9px;
+    margin-left: -130px; 
+}
+.first{
+    height: 499px;
+    width: 100%;
+}
+.new{
+    display: none;
+}
+.Azure3{
+    display: none;
+}
+.middle{
+    display: block;
+    max-width: 540px;
+}
+.box{
+    display: block;
+    max-width: 540px;
+}
+.feature h1{
+    width: 530px;
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 0.21px;
+    /* float: left; */
+    margin-left: 0px;
+    
+}
+.feature{
+    transform: translateX(-230px);
+}
+.solution{
+    max-width: 540px;
+    transform: none;
+    margin: 0px;
+    padding-left: 0px;
+    overflow: none;
+}
+.solution h1{
+     width: 100%;
+     font-size: 23px;
+     font-weight: 600;
+}
+.scroll-bar{
+    max-width: 540px;
+    display: block;
+    
+}
+  .scroll-ig img{
+    display: none;
+    }
+.scroll-bar div{
+     overflow: hidden;
+}
+.scroll-bar div{
+    margin: 0px;
+
+ padding-left: 18px;
+ font-size: 8px;
+
+ border-bottom-style: ridge;
+  }  
+  .product-ser{
+    max-width: 540px;
+    
+
+  }
+  .unni {
+    transform: translateX(40px);
+  }
+  .product p{
+    margin: 0px;
+    justify-content: left;
+    transform: translateX(-200px);
+  }
+  .product h2{
+    /* height: 40px; */
+    font-size: 16.2px;
+    width: 100%;
+    font-weight: 400;
+    letter-spacing: normal;
+    font: normal-bold;
+    transform: translateX(-200px);
+    line-height: 25px;
+    
+  }
+  .product-nav{
+ transform: translateX(-200px);
+  }
+  .grid-around{
+    max-width: 540px;
+    display: block;
+  }
+  .full-box{
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/ACOM-HP-Desktop-ENUS-Product-PromoCard-Phi3-Overlay@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=320&hei=560&qlt=100&fmt=png-alpha&fit=constrain");
+    /* position: absolute; */
+    height: 166px;
+margin-top: 50px;
+ /* border-radius: 15px; */
+object-fit: cover;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+
+
+
+  }
+  .space-full{
+    display: block;
+    transform: translateX(-200px);
+
+  }
+  .gartner{
+    display: block;
+    width: 450px;
+    height: 650px;
+    transform: translateX(-200px);
+
+  }
+  .gartner .img img{
+    width: 450px;
+    height: 370px;
+    transform: translateY(54px);
+  }
+  .gart h1{
+    font-size: 24px;
+    width: 100%;
+    margin-top: 20px ;
+  }
+  .half{
+    width: 100%;
+    transform: translateX(-100px);
+    
+  }
+  .half h1{
+    max-width: 540px;
+    font-size:22px;
+    width: 100%;
+    /* font-weight: 500; */
+    letter-spacing: -1.4px;
+
+  }
+  .mop .mp{
+    display: flex;
+    border: none;
+  }
+  .mop div{
+    display: none;
+    transform: translateX(-200px);
+    /* border: none; */
+  }
+  .cheveron h1{
+     font-size: 20px;
+     font-style:initial;
+     font-weight: 550;
+  }
+  .cheveron{
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/resources-background_mobile@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=360&hei=383&qlt=85&fmt=png-alpha&fit=constrain");
+   margin: 0;
+   padding: 0;
+object-fit: cover;
+margin-top: 0px;
+background-color: #f5fafd;
+/* background-repeat: no-repeat; */
+/* max-width: 1844px; */
+width: 100%;
+height: 580px;
+     background-size: 100% auto;
+  background-repeat: no-repeat; /* Optional: prevents the image from repeating */
+  background-position: center;
+
+}
+.relax img{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+.global{
+    width: 100%;
+    /* height: 100px; */
+    margin-top: -10px;
+    max-width: 540px;
+  
+}
+.glob img{
+    height: 330px;
+    width: 100%;
+    margin-top: -20px;
+  background-size: 100% auto;
+  background-repeat: no-repeat; /* Optional: prevents the image from repeating */
+  background-position: center;    
+
+}
+.glob h1{
+    width: 100%;
+    font-size: 30px;
+    letter-spacing: -1px;
+    /* font-weight: 400; */
+    transform: translateY(-30px);
+}
+.glob p{
+    width: 100%;
+    font-size: 17px;
+    font-weight: 400px;
+    justify-content: center;
+    text-align: center;
+}
+.glob button{
+    width: 94%;
+    
+}
+.master{
+    width: 100%;
+    transform: translateX(-240px);
+    }
+    .master h2{
+        width: 100%;
+        font-size:x-large;
+        font-weight: 600;
+    }
+    .lego{
+       display: flex; 
+       flex-direction: column-reverse;
+       height: 800px;
+       width: 470px;
+       transform: translateX(10px);
+    }
+    .quarter img{
+        /* width: 100%; */
+        /* height: 300px; */
+    }
+    .foreign img{
+        width:100%;
+        height: 400px;
+        /* position: absolute; */
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+/* Tablet view */
+@media (max-width:800px) {
+    
+ 
+
+   }
+
+
+/* laptop view */
+@media (max-width:1370px){
+
+
+
+
+
+
+}
+ 
+
+
+
+
+
 
 
 
 
  /* --Desktop view-- */
  
-@media screen and (max-width:1820px) {
-   body{
-    margin :0;
-    padding: 0;
-}
-.nav{
-    margin:0; 
-}
-.header-img video{
-    width: 1800px;
-    margin:0;
-}
- .body{
-    padding-right: none;
+@media (max-width:1820px) {
+   .new p{
+    display: flex;
 
- }
+   }
 
 }
  
