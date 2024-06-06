@@ -1809,7 +1809,7 @@ width: 100%;
  }
  .header-img video{
     margin: 0;
-    max-width: 540px;
+    max-width: 510px;
     height: 456px;
  }
  .second{
@@ -1861,17 +1861,17 @@ display: contents;
 }
 
 .btn1 button{
-    width: 450px;
+    width: 480px;
     height: 52px;
-    margin-left: -130px;
+    margin-left: -150px;
 
 
 }
 .btn2 button{
-    width: 450px;
+    width: 480px;
     height: 52px;
     margin: 9px;
-    margin-left: -130px; 
+    margin-left: -150px; 
 }
 .first{
     height: 499px;
@@ -1886,22 +1886,25 @@ display: contents;
 .middle{
     display: block;
     max-width: 540px;
+    margin-top: -50px;
 }
 .box{
     display: block;
     max-width: 540px;
 }
+.nav
 .feature h1{
-    width: 530px;
+    width: 500px;
     font-size: 21px;
-    font-weight: 600;
-    letter-spacing: 0.21px;
+    font-weight: 500;
+    /* letter-spacing: 0.21px; */
     /* float: left; */
-    margin-left: 0px;
+    /* margin-left: 0px; */
     
 }
 .feature{
     transform: translateX(-230px);
+    display: block;
 }
 .solution{
     max-width: 540px;
@@ -1923,8 +1926,9 @@ display: contents;
   .scroll-ig img{
     display: none;
     }
-.scroll-bar div{
-     overflow: hidden;
+.scroll-bar {
+    scrollbar-width: none ;
+    width: 100%;
 }
 .scroll-bar div{
     margin: 0px;
@@ -2102,11 +2106,587 @@ height: 580px;
     .quarter img{
         /* width: 100%; */
         /* height: 300px; */
+        transform: translateY(130px);
     }
     .foreign img{
         width:100%;
-        height: 400px;
+        height: 450px;
         /* position: absolute; */
+    }
+    .writings h2{
+        font-size: larger;
+        line-height: 27px;
+        /* align-items: center; */
+        /* justify-content: center; */
+        transform: translateY(-40px);
+    }
+    .edge{
+        transform: translateY(-60px);
+        display: flex;
+        /* flex-direction: column-reverse; */
+    }
+    .second h1{
+        font-size: 27px;
+        width: 400px;
+        font-weight: 600;
+        transform: translateX(-150px);
+       
+    }
+    .AKS button{
+        transform: none;
+        width: 440px;
+    }
+    .AKS div p {
+        margin-bottom: 40px;
+    }
+    .second h3{
+        /* font: 600; */
+        /* font-size: medium; */
+        color: rgb(23, 37, 61);
+/* display: block; */
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 16px;
+font-weight: 510;
+/* height: 168px; */
+/* letter-spacing: -0.54px; */
+line-height: 28px;
+width: 400px;
+transform: translateX(-150px);
+    }
+    .second {
+        display: block;
+        margin-top: 70px;
+          }
+.second p{
+    transform: translateX(-150px);
+}
+.seeman{
+    display: none;
+}
+.janco {
+  transform: translateX(-250px);
+}
+.groo h1{
+    /* width: auto; */
+    font-family: 20px;
+}
+.last-grid{
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/cta-background_mobile@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=360&hei=868&qlt=100&fmt=png-alpha&fit=constrain");
+    display: block;
+    width: 100%;
+    max-width: 540px;
+    margin: 0px;
+    margin-top: -50px;
+    height: 810px;
+    
+}
+.pro{
+    display: block;
+    /* height: 800px; */
+    width: 100%;
+    margin: 0;
+    gap: 10px;
+}
+.groot{
+    /* display: flex; */
+    /* width: 100%; */
+    height: 180px;
+    margin-top: 5px;
+    width: 480px;
+transform: translateX(-45px);
+position: relative;
+}
+.groot h3{
+    font-size: larger;
+    font-weight: 600;
+}
+.groot span{
+    width: 50%;
+    font-size: 17px;
+    font-weight: 400;
+    /* padding: 20px; */
+}
+.groot button{
+    display: flex;
+    position: relative;
+    transform: translateY(-10px);
+}
+.groot p{
+    display: flex;
+    width: 200px;
+}
+.app{
+    margin: 0px;
+    padding: 0px;
+    transform: translateX(-100px);
+}
+.footer-li li{
+    display: none;
+}
+.footer-li{
+    display: block;
+}
+.footer-li ul{
+    display: block;
+    margin-top: 38px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: #eaebec;
+    border: none;
+    height: 45px;
+    width: 480px;
+    transform: translateX(-90px);
+    /* padding-top: 10px; */
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    padding-left: 15px;
+    /* width: 100%; */
+}
+.language{
+    width: 100%;
+    background-color: #f4f5f6;
+    margin: 0px;
+    display: block;
+}
+.cheese{
+    display: block;
+    /* height: 30px; */
+    
+}
+.change{
+    transform: translateX(-195px);
+
+}
+.choice{
+    height: 15px;
+    margin-top: -30px;
+    padding-left: 10px;
+}
+.health div{
+  display: flex;
+  list-style: none;
+  padding-left: 150px;
+}
+
+.paanch-btn{
+    width: 100%;
+    padding: 0px;
+    gap: 40px;
+}
+.foo{
+    display: none;
+}
+.doo{
+    display: none;
+}
+.poo{
+    width: 150px;
+}
+.koo{
+    width: 150px;
+}
+.noo{
+    width: 100px;
+    display: none;
+}
+.health li {
+    display: flex;
+    font-size:x-small;
+    font-weight: 400;
+    padding-left: px;
+    
+}
+.dham{
+    transform: translateX(-50px);
+    
+}
+
+
+ }
+/* Tablet view (width between 768px and 1024px) */
+@media (max-width:859px) {
+    .nav{
+        max-width: 859px;
+        height: 47px;
+        margin: 0;
+        padding: 0;
+    }
+ .nav-left{
+    width: 100%;
+    padding-left: 0px;
+    padding: 0px;
+ }
+ .nav-left img{
+    margin-left: 1px;
+ }
+ .nav-left h1{
+    /* margin-left: -1px; */
+    transform: translateX(-9px);
+ }
+ .rightmost .Signin{
+    width: 450px;
+    font-size: 13px;
+    font-weight: 400;
+    display: block;
+    /* justify-content: space-between; */
+ }
+ .rightmost button{
+    display: none;
+ }
+ .nav-one{
+    /* transform: translateX(-10px); */
+ }
+ .search button{
+    /* transform: translateX(200px);/ */
+    position: relative;
+    margin-left: 300px;
+    align-items: end;
+    border: none;
+ }
+ .first{
+    width: 100%;
+
+ }
+ .header-img video{
+      width: 100%;
+      height: 369px;
+      margin: 0;
+      padding: 0;
+       background-size: 100% auto;
+  background-repeat: no-repeat; /* Optional: prevents the image from repeating */
+  background-position: center;
+
+ }
+ .first{
+    height: 414px;
+ }
+ .second{
+    margin-top: 140px;
+    padding-left: 60px;
+    width: 100%;
+ }
+ .second p{
+    font-size: 10px;
+    /* margin: 0; */
+    padding: 0;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+
+
+ }
+ .second h3{
+   font-size: 16px;
+   width: 600px;
+   /* letter-spacing: 1px; */
+ }
+ .second h1{
+    font-size: 30px;
+    width: 400px;
+    /* letter-spacing: 1px; */
+ }
+ .new p{
+    display: none;
+ }
+ .new .p1{
+display: block;
+transform: translateY(-35px);
+ }
+ .new{
+width: 80%;
+margin: 0;
+transform: none;
+padding: 0;
+ }
+ .Azure3 button{
+    margin-left: -76px;
+    transform: translateY(-40px);
+ }
+.feature{
+    width: 100%;
+    transform: translate(-190px);
+    margin-top: 0;
+    padding-top: 0px;
+    margin-top: -40px;
+
+}
+.feature p{
+    margin: 0px;
+    font-size: 11px;
+    font-weight: 600;
+}
+.feature h1{
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+.middle {
+    max-width: 859px;
+display: block;
+/* max-width: ; */
+}
+.box{
+    display: block;
+    margin-top: -20px;
+}
+.box-cub{
+    width: 710px;
+    margin-left: 40px;
+    height: 498px;
+    /* margin-left: -20px; */
+}
+.box-cub img{
+    width: 691px;
+    height: 300px;
+}
+.box-sub{
+    width: 710px;
+    margin-left: 40px;
+    height: 498px;
+    /* margin-left: -20px; */
+}
+.box-sub img{
+    width: 691px;
+    height: 300px;
+}
+.box-pub{
+    width: 710px;
+    margin-left: 40px;
+    height: 498px;
+    /* margin-left: -20px; */
+}
+.box-pub img{
+    width: 691px;
+    height: 300px;
+}
+.pop p{
+    margin-top: -10px;
+}
+.ron {
+    align-items: center;
+    margin-top: -30px;
+}
+.ron p{
+    
+}
+.solution{
+    max-width: 859px;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/solution-background_mobile-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=360&hei=995&qlt=100&fmt=png-alpha&fit=constrain");
+    width: 100%;
+    display: block;
+    transform: none;
+    height: 824px;
+    /* transform: translateX(-200px); */
+}
+.scroll-bar{
+    scrollbar-width: none;
+    width: 89%;
+    transform: translateX(-230px);
+}
+.scroll-ig{
+    display: block;
+}
+.solution p{
+    transform: translateX(-187px);
+}
+.scroll-ig{
+    display: none;
+}
+.solution h1{
+    transform: translateX(-190px);
+    font-size: 22px;
+    font-weight: 560;
+}
+.paanch-btn{
+    transform: translateX(-189px);
+}
+.paanch-btn button{
+    padding: 0px;
+    width: 170px;
+}
+.doo button{
+    width: 100%;
+    padding:9px
+}
+.foo button{
+    width: 100%;
+    padding: 10px;
+}
+.poo button{
+    width: 100%;
+    padding: 7px;
+}
+.koo button{
+    width: 100%;
+    padding: 9px;
+}
+.unni {
+/* position: absolute; */
+margin-top: -70px;
+display: flex;
+}
+.unni button{
+    transform: translateX(-187px);
+}
+.product-ser{
+    margin-left: 30px;
+    padding-left: 0px;
+    max-width: 859px;
+    width: 100%;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/product-background_desktop_homepage?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=1129&qlt=100&fmt=png-alpha&fit=constrain");
+margin-left: 0;
+}
+.product{
+    /* margin: 0; */
+padding: 0px;
+/* transform: translateX(-196px); */
+}
+.product h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+.product-nav .co{
+display: none;
+}
+.product-nav{
+    /* transform: translateX(-195px); */
+    width: 100%;
+}
+.product-nav .so{
+    width: 100px;
+}
+.product-nav .to{
+    width: 170px;
+}
+.product-nav .po{
+    width: 90px;
+}
+.product-nav .do{
+    width: 100px;
+}
+.product-nav .lo{
+    width: 160px
+}
+.grid-around{
+    display: block;
+    max-width: 859px;
+    
+}
+.space-full{
+    max-width: 859px;
+    display: block;
+    /* margin: 0; */
+    padding: 0;
+    /* width: 100%; */
+}
+.full-box{
+    display: block;
+ background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/ACOM-HP-Desktop-ENUS-Product-PromoCard-Phi3-Overlay@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=320&hei=560&qlt=100&fmt=png-alpha&fit=constrain");
+ width: 710px;
+ height: 300px;
+ background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    /* transform: translate(-167px); */
+    position: relative;
+    
+}
+.full-box h3{
+    display: contents;
+  position: absolute;
+  justify-content: center;
+  
+  /* color: #1a1a1f; */
+  margin-top: 200px;
+}
+.space{
+    width: 100%;
+    margin-top: -145px;
+}
+.grid-around{
+    width: 100%;
+    margin-top: 10px;
+    transform: translateX(-1px);
+    
+}
+.grid-1{
+    width: 710px;
+    height: 206px;
+    /* transform: translate(-179px); */
+    margin-top: 10px;
+}
+.grid-1 h4{
+    margin-top: -10px;
+    font-size: medium;
+}
+.grid-1 span{
+    margin-left: 20px;
+    
+}
+.grid-1 p{
+    margin-top: -1px;
+}
+.gartner{
+margin-top: 190px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 698px;
+    height: 748px;
+    /* position: center; */
+    margin-left: 25px ;
+}
+.img img{
+    width: 699px;
+    height: 500px;
+    transform: translateY(-74px);
+}
+.gart h1{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: -50px;
+}
+.gart span{
+    font-size: medium;
+    font-weight: 500;
+    margin-top: -6px;
+}
+.half{
+    padding: 0;
+    margin-top: 100px;
+}
+.half h1{
+    font-size: x-large;
+    font-weight: 600;
+    letter-spacing: normal;
+
+}
+.list-pop{
+    width: 60%;
+    height: 50px;
+}
+.mop .mp{
+    display: flex;
+    color: #1a1a1f;
+}
+.mop {
+    display: none;
+}
+.cheveron{
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/resources-background_mobile@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=360&hei=383&qlt=85&fmt=png-alpha&fit=constrain");
+width: 100%;
+padding: 0;
+height: 590px;
+}
+.cheveron h1{
+    font-size: larger;
+}
+.relax{
+    width: 100%;
+    }
+    .relax img{
+        width: 700px;
+        height: 380px;
+        margin: 0; 
     }
 
 
@@ -2114,45 +2694,27 @@ height: 580px;
 
 
 
-
-
-
-
-
-
-
-
- }
-/* Tablet view */
-@media (max-width:800px) {
-    
  
+
+
+
+
+
+
+
 
    }
 
 
+
 /* laptop view */
-@media (max-width:1370px){
-
-
-
-
-
+@media (min-width:1024) and (max-width:1370px){
 
 }
  
-
-
-
-
-
-
-
-
-
  /* --Desktop view-- */
  
-@media (max-width:1820px) {
+@media (min-width:1440px) and {
    .new p{
     display: flex;
 
