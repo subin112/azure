@@ -3164,15 +3164,8 @@ margin-top: -170px;
 }
 .scroll{
     max-width: 1080px;
-    /* margin-top: 30px; */
-    /* padding: 0; */
-    /* margin-top: 80px; */
     width: 100%;
-}
-.scroll-bar{
-    /* margin-left: 40px; */
-    /* width: 100%; */
-    
+ 
 }
 .scroll-ig{
     padding: 0;
@@ -3187,14 +3180,10 @@ margin-top: -170px;
 .square img{
     width: 48px;
     height: 48px;
-    /* align-items: center; */
-    /* position: relative; */
     
 }
 .square{
-    /* justify-content: center; */
-    /* position: absolute; */
-    margin-left: -90px;
+      margin-left: -90px;
     transform: translateY(-50px);
 }
 .unni{
@@ -3231,7 +3220,7 @@ transform: translateX(50px)
     background-position: center;
     transform: none;
     padding-bottom: 50px;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
 }
 
 .full-box h3{
@@ -3315,48 +3304,319 @@ line-height: 24px;
 width: 100px;
 }
 .half{
-    padding: 0;
+    /* padding: 0; */
     /* margin-top: 60px; */
+    transform: translateX(130px);
 }
 .cheveron{
     background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/resources-background_desktop@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=768&qlt=85&fmt=png-alpha&fit=constrain");
-height: 782px;
+height: 592px;
 margin: 0;
 padding: 0;
-margin-top: -0px;
+
 }
 .cheveron h1{
     width: 100%;
-    background-color: #f5fafd;
-margin: 0;
-/* padding: 0; */
+    /* background-color: #f5fafd; */
+/* margin: 0; */
 }
-
+.half h1{
+    font-size: 29px;
+    font-weight: 600;
+    /* width: 200px; */
+}
+.list-pop {
+    /* margin-top: 30px; */
+}
+.list-pop{
+    margin: 0;
+    /* padding: 0; */
+    /* height: 100px; */
+}
+ .mp{
+    display: flex;
     
+}
+.mop{
+     display: none;
+     margin-top: 0;
+     padding-top: 0;
+     /* margin-top: ; */
+}.cheveron p{
+     background-color: #f4fafd;
+     width: 100%;
+     /* margin-top: -200px; */
+     margin-bottom: 0;
+     height: 34px;
 
-    
-
-
- 
- 
-
-
-        
      
+} 
+.cheveron h1{
+    /* margin-top: 0; */
+    /* padding-top: 0; */
+}
+.cheveron button{
+    /* background-color: #f4fafd; */
+}
+.cheveron h1{
+    /* padding-bottom: 20px; */
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    /* padding-top: 90px; */
+    margin-bottom: 0;
+    
+}
+.ralax{
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/resources-background_desktop@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=768&qlt=85&fmt=png-alpha&fit=constrain");
+    padding-top: 0;
+    width: 100%; 
+}
+.relax img{
+    width: 614px;
+    height: 374.11px;
+     box-sizing: border-box;
+    padding: 25px;
+}
+.product-ser{
+    margin-bottom: 0;
 
+}
+.global{
+        display: block;
+        width: 100%;
+        max-width: 1080px;
+        margin: 0;
+        margin-top: -45px;
+        padding-top: 0;
+    }
+.glob img{
+width: 100%;
+/* height: 280px; */
+margin: 0;
+padding: 0;
+}
+.glob p{
+    font-size: 18px;
+}
+.glob button{
+    width: 140px;
+    transform: translateY(-20px);
+}
+.stories{
+    display: block;
+    /* width: 100%; */
+    margin: 0;
+    padding: 0;
+    transform: none;
 
+}
+.master{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    transform: translateX(-209px);
+}
+.master p{
+    font-size: 10px;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+.master h2{
+    font-size: 21px;
+    letter-spacing: 0.23px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.lego{
+    margin: 0;
+    padding: 0;
+    width: 940px;
+    height: 437px;
+    transform: translateX(49px);
+}
+.foreign img{
+    display: block;
+    box-sizing: border-box;
+    width: 460.5px;
+    height: 433px;
+    transform: translateX(57px);
+    
 
+}
+.writings{
+   margin: 0;
+   padding: 0;
+   transform: none;
+}
+.writings h2{
+    /* margin: 0; */
+    /* padding:0; */
+    font-size: 18px;
+    width: 400px;
+    /* box-sizing: border-box; */
+color: rgb(23, 37, 61);
+display: block;
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 600;
+height: 84px;
+letter-spacing: -1px;
+line-height: 28px;
+margin-top: 150px;
+}
+.quarter img{
+    transform: translateY(130px);
+    
+}
+.AKS{
+    transform: translateY(-77px);
+    margin: 0;
+    padding-left: 8px;
+}
+.seeman{
+    width: 945px;
+    max-width: 1080px;
+    transform: translateX(-350px);
+}
+.janco{
+    margin: 0;
+    padding-left: 50px;
+    margin-top: 24px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    /* padding-bottom: 30px; */
+    padding-bottom: 80px;
+}
+.last-grid{
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CTA-BG-desktop@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=512&qlt=100&fmt=png-alpha&fit=constrain");
+    box-sizing: border-box;
+    height: 668px;
+     margin-top: -186px;
+     /* margin-bottom: 0; */
+    padding-top: 0px;
+    
+    
+     
+}
+.groo h1{
+    width: 222.98;
+    height: 36px;
+    box-sizing: border-box;
+color: rgb(14, 23, 38);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 29px;
+font-weight: 600;
+letter-spacing: -1.5px;
+}
+.pro{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+    /* margin-left: 0; */
+    margin-left: -36px;
+}
+.groot{
+    height: 275px;
+    width: 306.60px;
+    
+    
+}
+.groot h3{
+    width: 260px;
+    /* box-sizing: border-box; */
+color: rgb(0, 41, 72);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 19px;
+font-weight: 600;
+letter-spacing: -0.48px;
+line-height: 24px;
+margin-top: 30px;
+}
+.groot span{
+    box-sizing: border-box;
+    margin-left: 30px;
+    /* width: 300px; */
+}
+.footer{
+    margin-top: -178px;
+    width: 100%;
+}
+.app{
+    transform: translateX(-115px);
+}
+.footer-li{
+    box-sizing: border-box;
+color: rgb(26, 26, 31);
+column-gap: 24px;
+display: grid;
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 12px;
+font-weight: 400;
+grid-template-columns: 153.667px 153.667px 153.667px 153.667px 153.667px 153.667px;
+letter-spacing: -0.48px;
+line-height: 24px;
+transform: translateX(-116px);
+}
+.footer-li ul p{
+    display: flex;
+    width: 150px;
+    font-size: 12px;
+    font-weight: 600;
+    gap: 10px;
 
+}
+.footer-li li{
+    /* margin: 0; */
+    /* padding: 0; */
+    font-size: 10px;
 
+}
+.footer-li ul{
+color: rgb(26, 26, 31);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 12px;
+font-weight: 400;
+letter-spacing: -0.48px;
+line-height: 24px;
+}
+.language{
+    width: 100%;
+    margin: 0;
+    /* padding: 0; */
+}
+.dham{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.health{
+    display: grid;
+    grid-row: 2;
+    grid-template-rows: 20px 20px;
+    width:100%;
+    margin: 0;
+    text-align: center;
+    
+   
 
-
-
-
-
-
-
-
-
+}
+.cheese{
+    margin-left: -90px;
+}
+.choice p{
+    text-align: center;
+    width: 80px;
+    margin-left: -3px;
+}
+.dham{
+    display: flex;
+    /* align-items: flex-end; */
+    float: right;
+    justify-content: flex-end;
+    
+}
+@media (min-width:1080px) and (max-width:1091px)
 
 
 
@@ -3365,11 +3625,339 @@ margin: 0;
  
  /* --Desktop view-- */
  
-@media (min-width:1440px) and {
-   .new p{
+@media (min-width:1092px) and (max-width:1732px){
+   
+    .nav{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        /* max-width: 1732; */
+    }
+    .nav-left{
+        padding: 0;
+    }
+.nav-right{
+    width: 330px;
+}
+.rightmost{
+    width: 100%;
+    font-size: small;
+}
+.Azure button{
+    width: 105px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.Signin{
+    width: 300px;
+}
+.con{
+    width: 400px;
+    font-size: 10px;
+    font-weight: 300;
+    /* display: block; */
+}
+.search{
+    justify-content: space-between;
     display: flex;
+    
+}
+.search span{
+    width: 10px;
+    position: relative;
+    /* padding: 30px; */
+}
+.first{
+    width: 100%;
+    /* height: 500px; */
+}
+.header-img video{
+    margin-right: 0;
+    padding: 0;
+    object-fit: cover;
+    width:100%
+}
+.second{
+    padding: 0;
+}
+.second p{
+    margin-left: 50px;
+    font-size: 11px;
+    margin-top: 19px;
+    font-weight: 600;
+}
+.second h1{
+    color: rgb(14, 23, 38);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 38px;
+font-weight: 600;
+letter-spacing: -2px;
+margin-left: 50px;
+width: 450px;
+}
+.second h3{
+    margin-left: 50px;
+    box-sizing: border-box;
+color: rgb(23, 37, 61);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 17px;
+font-weight: 400;
+letter-spacing: -0.64px;
+line-height: 28px;
+width: 469px;
+}
+.btn{
+    margin-left: 50px;
+}
+.nav-like p{
+    margin-top: -20px;
+    transform: translateX(-22px);
+}
+.Azure3{
+    margin-top: -40px;
+}
+.middle{
+    width: 100%;
+}
+.feature{
+    display: block;
+    transform: translateX(-199px);
+    /* margin: 0; */
+    padding: 0;
+}
+.feature p{
+box-sizing: border-box;
+color: rgb(23, 37, 61);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 11px;
+font-weight: 600;
+letter-spacing: 0.96px;
+}
+.feature h1{
+    box-sizing: border-box;
+color: rgb(14, 23, 38);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 24px;
+font-weight: 590;
+letter-spacing: -1.2px;
+line-height: 32px;
+/* margin: 0; */
+}
+.box{
+    display: flex;
+    /* width: 100%; */
+    width: 1062px;
+    margin-left: 19px;
+    gap: 15px;
+    padding-bottom: 90px;
+    
+    
+}
+.box-cub{
+    width: 338.267px;
+    height: 442.417px;
+}
+.box-cub img{
+    height: 137.417px;
+    width: 320.267px;
+}
+.box-sub{
+    width: 338.267px;
+    height: 442.417px;
+}
+.box-sub img{
+    height: 137.417px;
+    width: 320.267px;
+}
+.box-pub{
+    width: 338.267px;
+    height: 442.417px;
+}
+.box-pub img{
+    height: 137.417px;
+    width: 320.267px;
+}
+.pop h3{
+    box-sizing: border-box;
+color: rgb(14, 23, 38);
+display: block;
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 17px;
+font-weight: 600;
+letter-spacing: -0.54px;
+line-height: 24px;
+margin-left: 8px;
+width:260px
+}
+.pop p{
+    align-items: flex-start;
+box-sizing: border-box;
+color: rgb(23, 37, 61);
+display: flex;
+flex-direction: column;
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: -0.48px;
+line-height: 24px;
+padding-inline-end: 24px;
+width: 300px;
+margin-left: 20px;
+}
+.ron p{
+    box-sizing: border-box;
+color: rgb(0, 66, 117);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 13px;
+font-weight: 600;
+letter-spacing: -0.48px;
+line-height: 20px;
+overflow-wrap: break-word;
+padding-bottom: 2px;
+text-align: left;
+}
+.ron {
+    display: flex;
+}
+.solution{
+    margin-top: -71px;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/solution-background_desktop-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=980&qlt=100&fmt=png-alpha&fit=constrain");
+    width: 100%;
+    padding-left: 50px;
+    }
+    .solution p{
+        box-sizing: border-box;
+color: rgb(23, 37, 61);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 11px;
+font-weight: 500;
+letter-spacing: 0.96px;
+line-height: 16px;
 
-   }
+    }
+    .solution h1{
+        box-sizing: border-box;
+color: rgb(14, 23, 38);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 22px;
+font-weight: 600;
+letter-spacing: -1.2px;
+line-height: 32px;
+    }
+    .scroll{
+        width: 100%;
+        /* margin: 0; */
+        margin-top: 80px;
+        
+    }
+    .scroll-ig{
+    padding: 0;
+    /* margin: 0; */
+    transform: translateX(230px);
+}
+.scroll-ig img{
+    width: 523.4px;
+    height: 392.5px;
+    object-fit: cover;
+    transform: translateY(-30px);
+}
+.square img{
+    padding: 0;
+    margin: 0;
+transform: none;
+      width: 48px;
+    height: 48px;
+    background-color: #0078d4;
+    
+}
+.square{
+    transform: translateY(145px);
+     margin-left: 200px
+}
+.unni{
+    margin: 0;
+    padding: 0;
+    
+}
+.unni p{
+ font-size: 12px;
+ font-weight: 600;
+ color: #1e5985;
+}
+.product-ser{
+    margin-top: 60px;
+    max-width: 1732px;
+    margin-left: 0;
+    padding-left: 0;
+}
+.product {
+    margin-left: 50px;
+}
+.product p{
+    box-sizing: border-box;
+color: rgb(23, 37, 61);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 11px;
+font-weight: 600;
+letter-spacing: 0.96px;
+line-height: 16px;
+padding-top: 110px;
+}
+.product h2{
+margin-top: 5px;
+box-sizing: border-box;
+color: rgb(14, 23, 38);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 23px;
+font-weight: 580;
+letter-spacing: -1.2px;
+line-height: 36px;
+
+}
+.product-nav{
+    margin-left: 50px;
+}
+.space-full{
+    background-color: #f5fafd;
+    display: block;
+}
+.full-box{
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/ACOM-HP-Desktop-ENUS-Product-PromoCard-Phi3-Overlay@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=320&hei=560&qlt=100&fmt=png-alpha&fit=constrain");
+width: 100%;
+ display: block;
+ background-color: #f5fafe;
+ width: 1026.8px;
+ height: 358.217px;
+ background-size: cover;
+    margin-left: 26px;
+    background-position: center;
+    transform: none;
+    padding-bottom: 98px;
+    /* padding: 0; */
+    /* margin: 0; */
+}
+.grid-around{
+    width: 100%;
+    margin-left: 12px;
+}
+.grid-1{
+    width: ;
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
  
