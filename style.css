@@ -1,4 +1,12 @@
 
+
+body{
+    padding: 0; 
+   margin: 0;
+   overflow-x: hidden;
+}
+
+
 .nav{
      margin:0px;
       width: 100%;
@@ -37,7 +45,7 @@ box-sizing: border-box;
     
 }
 select{
-    /* box-sizing: border-box; */
+   
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
     border: none; 
     /* font-size: smaller; */
@@ -79,8 +87,6 @@ select{
 }
 .rightmost button{
      border: none;
-    /* list-style: none; */
-    /* outline: none; */
     background-color: white;
     letter-spacing: -0.3px;
     transform: translateX(-20px);
@@ -97,11 +103,11 @@ select{
     padding-right: 70px;
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif; 
     font-style:normal;
-    color:rgb(76, 76, 81);
+    /* color:rgb(76, 76, 81); */
     border: 1px solid #747479;
     width: 100%;
     background-color: #f8f9fa;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* margin-top: -20pxpx; */
 
 }
@@ -110,6 +116,7 @@ select{
     margin-top: -12px;
     justify-content: space-between;
     /* padding: 20px; */
+    position: relative;
     
 }
 .Search search{
@@ -122,8 +129,12 @@ line-height: 19px;
     width: 24px;
     height:24px;
     position: absolute;
-    align-items: center;
+    margin-left: -24px;
+    margin-top: 5px;
+    
+    /* align-items: center; */
     font-size: 20px;
+    
     color: #1a1a1f;
     
 }
@@ -257,20 +268,16 @@ text-align: center
 .nav-like{
     /* display: flex; */
     margin-top: 0;
-    /* background-color: #89c402; */
-    /* display: flex; */
     justify-content: space-around;
     border-bottom-style: inset;
     height: 10px;
-    /* position: absolute;z */
     width: 100%;
     
 }
 .new{
+    transform: translateY(-34px);
     display: flex;
 column-gap: 48px;
-/* display: flex; */
-/* flex-wrap: wrap; */
 font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 13px;
 font-weight: 600;
@@ -282,6 +289,8 @@ color: rgb(0, 103, 184);
     .new p{
         display: flex;
     }
+
+
     .Azure3 button{
         width: 140px;
     height: 37px;
@@ -294,17 +303,14 @@ color: rgb(0, 103, 184);
     font-weight: 600;
     letter-spacing: -0.3px;
     }
+  
     .Azure3{
-        padding-top: 4px;
+        /* padding-top: 4px; */
         padding-left: 39px;
+        transform: translateY(-37px);
         
     }
-    .feature{
-     /* padding-left: 246px; */
-     /* justify-content: center; */
-     /* text-align: center; */
-     /* transform: translateX(200px); */
-}
+
 .feature h1{
    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 32px;
@@ -3616,12 +3622,6 @@ line-height: 24px;
     justify-content: flex-end;
     
 }
-@media (min-width:1080px) and (max-width:1091px)
-
-
-
-
-}
  
  /* --Desktop view-- */
  
@@ -3637,6 +3637,7 @@ line-height: 24px;
         padding: 0;
     }
 .nav-right{
+    max-width: 1732px;
     width: 330px;
 }
 .rightmost{
@@ -3650,6 +3651,7 @@ line-height: 24px;
 }
 .Signin{
     width: 300px;
+
 }
 .con{
     width: 400px;
@@ -3941,7 +3943,343 @@ width: 100%;
     margin-left: 12px;
 }
 .grid-1{
-    width: ;
+    width: 328.127px;
+    height: 270px;
+}
+.grid-1 h4{
+    font-size: 17px;
+    margin-top: 0;
+}
+.grid-1 span{
+    box-sizing: border-box;
+    font-size: 14px;
+    box-sizing: border-box;
+color: rgb(23, 37, 61);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15px;
+font-weight: 400;
+letter-spacing: -0.48px;
+line-height: 24px;   
+}
+.gartner{
+    /* background-color: #f4fafd; */
+    height: 470px;
+    width: 992.5px;
+    margin-bottom: 0;
+    padding-bottom: 6px;
+    padding-right: 7px;
+}
+.gart{
+    width: 100%;
+    
+}
+.img img{
+    width: 479.3px;
+    height: 472px;
+    object-fit: cover;
+}
+.gart h1{
+    box-sizing: border-box;
+color: rgb(14, 23, 38);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 22px;
+font-weight: 600;
+letter-spacing: -1.2px;
+line-height: 32px;
+}
+.gart span{
+    box-sizing: border-box;
+    color: rgb(23, 37, 61);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15px;
+font-weight: 400;
+letter-spacing: -0.48px;
+line-height: 24px;
+position: relative;
+width: 100px;
+}
+.gart button{
+    display: block;
+
+}
+.half{
+    /* margin: 0; */
+    padding: 0;
+    margin-top: 120px;
+}
+.half h1{
+   box-sizing: border-box;
+   color: rgb(14, 23, 38);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 29px;
+font-weight: 600;
+letter-spacing: -1.5px
+}
+.list-pop{
+    width: 90%;
+}
+.mp span{
+ display: flex;
+ width: 100px;
+}
+.mop span{
+    display: none;
+}
+.cheveron{
+    width: 100%;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/resources-background_desktop@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=768&qlt=85&fmt=png-alpha&fit=constrain");
+  height: 544px;
+  /* padding-bottom: 30px; */
+  
+}
+.relax img{
+    margin-top: 20px;
+    width: 609.66px;
+    height: 340.11px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.cheveron h1{
+    color: rgb(14, 23, 38);
+display: block;
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 19px;
+font-weight: 600;
+letter-spacing: -1px;
+line-height: 28px;
+margin-bottom: 0px;
+text-align: center;
+}
+.cheveron button{
+    height: 35px;
+    width: 34.7px;
+    margin-top: 10px;
+}
+.global{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.glob img{
+width: 100%;
+}
+.stories{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.master{
+    margin: 0;
+    padding: 0;
+}
+.master p{
+    margin:0
+}
+.lego{
+width: 976.59px;
+height: 428px;
+    transform: none;
+    margin-left: 52px;
+}
+.foreign img{
+    width: 479px;
+    height: 435px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.writings h2{
+  box-sizing: border-box;
+  color: rgb(23,37,61);
+  display: block;
+  font-size: 19px;
+  font-weight: 600px;
+  letter-spacing: -1px;
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+   padding: 0;
+   margin-top: 130px;
+   line-height: 28px;
+}
+.quarter img{
+    margin: 0;
+    padding: 0;
+    transform: translateY(130px);
+    margin-bottom: 10px;
+}
+.AKS{
+    margin: 0;
+    padding: 0;
+    transform: translateY(-90px);
+}
+.AKS button{
+ width: 100px;
+}
+.master p{
+    margin-left: 0;
+    padding-left: 50px;
+}
+.master h2{
+    margin-top: 10px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+color: rgb(14, 23, 38);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 22px;
+font-weight: 600;
+letter-spacing: -1.2px;
+}
+.seeman{
+    width: 85%;
+    /* margin: 0; */
+    margin-left: 60px;
+}
+.boxer img{
+   width: 130px;
+   height: 56.4px;
+   /* margin: 0; */
+   /* padding: 0; */
+}
+.janco{
+    margin-left: 50px;
+}
+.last-grid{
+    margin-top: -227px;
+    transform: none;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CTA-BG-desktop@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=512&qlt=100&fmt=png-alpha&fit=constrain");
+    padding-top: 0;
+    width: 100%;
+    /* margin-bottom: -10px; */
+    height: 560px;
+    margin-bottom: 0;
+    padding-bottom: 260px;
+    margin-bottom: -220px;
+}
+.groo{
+    margin-top: -94px;
+    padding-top: 90px;
+}
+.groo h1{
+    box-sizing: border-box;
+color: rgb(14, 23, 38);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 27px;
+font-weight: 600;
+letter-spacing: -1.5px;
+word-spacing: normal;
+}
+.footer{
+    margin: 0;
+    /* padding: 0; */
+    /* transform: none; */
+    height: 450px;
+    width: 100%;
+}
+.pro{
+    width: 100%;
+    display: flex;
+    /* transform: none; */
+}
+.groot{
+    /* box-sizing: border-box; */
+    
+   width: 314.84px;
+   height: 277px;
+   margin-left: 15px;
+   padding-left: 0;
+   transform: translateX(-290px);
+   
+}
+.groot h3{
+   box-sizing: border-box;
+color: rgb(14, 23, 38);
+display: block;
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 18px;
+font-weight: 600;
+letter-spacing: -1px;
+
+}
+.groot span{
+ width: 200px;
+ box-sizing: border-box;
+color: rgb(0, 41, 72);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: -0.48px;
+line-height: 24px;
+margin-bottom: 0px;
+
+}
+.groot button p{
+    /* display: flex; */
+    /* margin: 0; */
+    /* padding: 0; */
+    transform: translateY(-28px);
+    width: 130px;
+    box-sizing: border-box;
+color: rgb(0, 66, 117);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 12px;
+font-weight: 600;
+letter-spacing: -0.48px;
+line-height: 20px;
+margin-left: 9px;
+}
+.groot button{
+  align-items: center;
+  justify-content: center;
+  
+}
+.groot button .fa-chevron-right{
+    margin: 0;
+    padding: 0;
+}
+.app{
+    display: none;
+}
+.language{
+    /* height: 200px; */
+    width: 100%;
+    margin-top:-30px;
+    margin-left: 0;
+}
+.footer-li{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 140px 170px 140px 130px 150px 160px ;
+    margin-left: 20px;
+    }
+.footer-li p{
+    width: 130px;
+    color: rgb(97, 97, 97);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15px;
+font-weight: 600;
+letter-spacing: normal;
+line-height: 20px;
+}
+.footer-li li{
+    background-color: rgba(0, 0, 0, 0);
+box-sizing: border-box;
+color: rgba(0, 0, 0, 0.9);
+font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 11px;
+font-weight: 400;
+letter-spacing: normal;
+line-height: 16px;
+width: 150px;
+}
+.dham{
+    display: none;
+    
+}
+.relax1{
+    transform: translateY(-50px);
+}
+.relax1 button{
+    margin-bottom: -20px;
+    color: floralwhite;
 }
 
 
