@@ -1,4 +1,15 @@
-
+@font-face {
+    font-family: norms-regular;
+    src: url(fonts/MWFFluentIcons.woff2);
+}
+@font-face {
+    font-family: norms-medium;
+    src: url(fonts/mwfmdl2-v3.54.woff);
+}
+@font-face {
+    font-family: norms-bold;
+    src: url(fonts/latest.woff2);
+}
 
 body{
     padding: 0; 
@@ -20,7 +31,7 @@ box-sizing: border-box;
 }
 
 .nav-left h1{
-    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: norms-medium;
      font-size: 16px;
      font-weight: 550;
      /* margin: 15px; */
@@ -29,7 +40,7 @@ box-sizing: border-box;
      margin-right: 20px;
 }
 .nav-left img{
-    width: 23px;
+    max-width: 23px;
     height: 23px;
     margin: 5px;
     padding-left: 3px;
@@ -95,7 +106,7 @@ select{
     
 }
 .Search button{
-    width: 120px;
+    max-width: 120px;
     height: 32px;
     border-radius: 3.5px;
     font-weight: 400;
@@ -113,8 +124,9 @@ select{
 }
 .Search{
     transform: translateX(-157px);
-    margin-top: -12px;
-    justify-content: space-between;
+    
+    /* margin-top: -12px; */
+    /* justify-content: space-between; */
     /* padding: 20px; */
     position: relative;
     
@@ -126,7 +138,7 @@ letter-spacing: normal;
 line-height: 19px;
 }
 .Search span i{
-    width: 24px;
+    max-width: 24px;
     height:24px;
     position: absolute;
     margin-left: -24px;
@@ -168,7 +180,7 @@ line-height: 19px;
     }
 
 .header-img video{
- /* width: 1823px; */
+ width: 100%;
     box-sizing: border-box;
 color: rgb(23, 37, 61);
 height: 609px;
@@ -176,7 +188,6 @@ object-fit: cover;
 background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
     
 
 }
@@ -201,10 +212,11 @@ letter-spacing: -1.0px;
 .second p{
 box-sizing: border-box;
 color: rgb(23, 37, 61);
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: "norms-";
 font-size: 12px;
-font-weight: 560;
+font-weight: 600;
 letter-spacing: 0.96px;
+line-height: 16px;
 }
 .second h3{
     box-sizing: border-box;
@@ -351,9 +363,7 @@ padding-left: 250px;
    align-items: center;
 box-sizing: border-box;
 color: rgb(23, 37, 61);
-display: grid;
-grid-template-columns: 445px 444px 470px ;
-/* flex-direction: column; */
+display: flex;
 font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 16px;
 font-weight: 400;
@@ -361,7 +371,7 @@ letter-spacing: -0.48px;
 line-height: 24px;
 width: 100% ;
 justify-content: center;
-transform: translateX(18px);
+transform: translateX(-40px);
 /* background: #f4fafd; */
 /* flood-color: #f4fafd; */
 
@@ -369,7 +379,7 @@ transform: translateX(18px);
 
 .box-cub{
     margin-top: 44px;
-    width: 432px;
+    max-width: 432px;
     box-sizing: border-box;
 height: 440px;
 border-radius: 23px;
@@ -388,7 +398,7 @@ background-color: #fefefe;
 }
 .box-sub{
     margin-top: 44px;
-    width: 432px;
+   max-width: 432px;
     box-sizing: border-box;
 height: 440px;
 border-radius: 23px;
@@ -406,7 +416,7 @@ justify-content: center;
 }
 .box-pub{
      margin-top: 44px;
-    width: 432px;
+    max-width: 432px;
     box-sizing: border-box;
 height: 440px;
 border-radius: 23px;
@@ -508,20 +518,20 @@ line-height: 24px;
     
 }
 .solution{
+    display: block;
      background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/solution-background_desktop-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=980&qlt=100&fmt=png-alpha&fit=constrain");
      margin-top: -11px;
-     /* margin-right: -10px; */
-     /* object-fit: cover; */
-     padding-left: 250px;
-     /* width: 100%; */
-       background-size: 100% auto;
-  background-repeat: no-repeat; /* Optional: prevents the image from repeating */
-  background-position: center;
-  /* width: 100%; */
+     margin-right: auto;
+     margin-left: auto;
+     background-size: 100% auto;
+   background-repeat: no-repeat; /* Optional: prevents the image from repeating */
+    background-position: center;
+
      
      
 }
 .solution p{
+    max-width: 600px;
 padding-top: 73px;
 font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 11px;
@@ -529,7 +539,8 @@ font-weight: 600;
 letter-spacing: 0.96px;
 line-height: 24px
 }
-.solution h1{  
+.solution h1{ 
+    max-width: 614px; 
 font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 32px;
 font-weight: 600;
@@ -538,6 +549,7 @@ letter-spacing: -1.2px;
 margin-top: -1px;
 }
 .paanch-btn{
+    max-width: 1328px;
     display: flex;
     column-gap: 10px;
     margin-top: 30px;
@@ -615,11 +627,11 @@ font-size: 15px;
 font-weight: 600;
 }
   .scroll {
+    max-width: 1300px;
     display: flex;
  margin-top: 50px;
  margin-bottom: 20px;
  font-size: 18px;
- width: 100%;
  
   }  
   
@@ -737,7 +749,7 @@ margin-bottom: 0px;
 
     
  .product-ser .so{
-    width: 109px;
+   max-width: 109px;
     height: 40px;
     border-radius: 20px;
 border: none;
@@ -750,7 +762,7 @@ letter-spacing: normal;
 line-height: 24px
 } 
 .product-ser .to{
- width: 213px;
+ max-width: 213px;
     height: 40px;
     border-radius: 20px;
 border: none;
@@ -762,7 +774,7 @@ letter-spacing: normal;
 line-height: 24px
 }
 .product-ser .po{
-   width: 113px;
+   max-width: 113px;
     height: 40px;
     border-radius: 20px; 
 border: none;
@@ -774,7 +786,7 @@ letter-spacing: normal;
 line-height: 24px
 }
 .product-ser .do{
-    width: 130px;
+    max-width: 130px;
     height: 40px;
     border-radius: 20px; 
 border: none;
@@ -786,7 +798,7 @@ letter-spacing: normal;
 line-height: 24px
 }
 .product-ser .lo{
-   width: 197px;
+   max-width: 197px;
     height: 40px;
     border-radius: 20px; 
 border: none;
@@ -798,7 +810,7 @@ letter-spacing: normal;
 line-height: 24px
 }
 .product-ser .co{
-     width: 74px;
+    max-width: 74px;
     height: 40px;
     border-radius: 20px;
 border: none;
@@ -821,8 +833,7 @@ line-height: 24px
     background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/ACOM-HP-Desktop-ENUS-Product-PromoCard-Phi3-Overlay@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=320&hei=560&qlt=100&fmt=png-alpha&fit=constrain");
     /* position: absolute; */
     height: 566px;
-width:318px;
-/* width: 100%; */
+width: 100%;
 margin-top: 50px;
  border-radius: 15px;
 object-fit: cover;
@@ -885,7 +896,7 @@ transform: translateY(244px);
     grid-template-rows: 260px 260px;
     /* width: 10%; */
     gap: 28px;
-    transform: translateX(15px);
+    /* transform: translateX(15px); */
     /* justify-content: space-between; */
 }
 .space-full{
@@ -900,7 +911,7 @@ transform: translateY(244px);
     height: 275px;
     display: block;
 box-sizing: border-box;
-    width: 318px;
+    max-width: 318px;
 color: rgb(23, 37, 61);
 border-radius: 27px;
 background-color: #fefefe;
@@ -949,7 +960,6 @@ width: 100%;
     
 }
 .grid-1 img{
-    height: 24px;
     height: 24px;
     margin: 22px;
     /* background-color: #005597; */
@@ -1066,7 +1076,7 @@ margin-top: -1px;
 }
 .list {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     margin: 20px;
     
 }
@@ -1081,8 +1091,6 @@ margin-left: 3px;
 .mop{
     display: flex;
     gap: 120px;
-    /* float: right; */
-    margin-left: 90px;   
     border-top: none;
     align-items: center;
     justify-content: center;
@@ -1186,12 +1194,12 @@ padding-top: 40px;
     
 }
 .global img{
-    /* margin-left: -8px; */
-    /* margin-right: -10px; */
+    width: 100%;
     object-fit: cover;
 
 }
 .global{
+    width: 100%;
    display: flex; 
    /* position: absolute; */
 }
@@ -1282,11 +1290,11 @@ letter-spacing: -1.6px;
     padding: 10px;
     border-radius: 24px;
     border: 2px solid #e2e8eb;
-    width: 1295px;
-    transform: translateX(251px);
+    max-width: 1320px;
+    justify-content: space-between;
     align-items: center;
-    /* border:0.7px dashed black; */
     margin-top: 0px;
+    margin-left: 251px;
 
 
 }
@@ -1328,7 +1336,7 @@ margin-left: 10px;
     padding-right: -5px;
 }
 .writings h2{
-    /* padding-bottom: 200px; */
+    max-width: 561px;
     transform: translateY(-120px);
     box-sizing: border-box;
 color: rgb(23, 37, 61);
@@ -1402,11 +1410,9 @@ margin-left: 10px;
     margin-right: 30px;
 }
 .janco button{
-    /* height: 10px; */
-    width: 34.7;
+    width: 34.7px;
      color: #e2e8eb;
     height:34.7px;
-    width: 35px;
     border-radius: 7px;
     border: none;
     background-color: #0078d4;
@@ -1428,16 +1434,13 @@ font-weight: 600;
 letter-spacing: -0.48px
 }
 .pro{
-    display: grid;
-    grid-template-columns: 448px 448px 448px ;
-    /* grid-template-rows: 1fr; */
-    /* position: center; */
+    display: flex;
     justify-content: center;
     position: absolute;
 
 }
 .groot{
-    width: 429.33px;
+    max-width: 429.33px;
     height: 259px;
     border: 2px solid #dadfe1;
     border-radius: 20px;
@@ -1560,9 +1563,8 @@ padding-left: 10px;
 
   }
   .footer-li{
-    display: grid;
-    grid-template-columns: 240.667px 240.667px 240.667px 240.667px 240.667px 240.667px;
-    gap: 30px;
+    display: flex;
+        gap: 30px;
     /* height: 658.2px; */
     margin-left: 90px;
     padding-top: 15px;
@@ -1575,35 +1577,19 @@ font-size: 12px;
 font-weight: 400;
 letter-spacing: -0.48px;
 line-height: 24px;
-list-style-image: none;
-list-style-position: outside;
-list-style-type: none;
-margin-bottom: 0px;
-margin-top: 12px;
-margin-bottom: 0px;
-margin-inline-end: 0px;
-margin-inline-start: 0px;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 12px;
-padding-bottom: 0px;
-padding-inline-start: 0px;
-padding-left: 0px;
-padding-right: 0px;
-padding-top: 0px;
 text-align: left;
   }
   .language select{
     border: 0.5px solid black;
     /* padding-right: 45px; */
     height: 36px;
-    width: 188px;
+    max-width: 188px;
     transform: translateY(-10px);
   }
   .language{
     margin-left: 31px;
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     justify-content: space-between;
     align-items: center;
     /* position: relative; */
@@ -1720,7 +1706,7 @@ transform: translateY(20px);
 }
 .box-cub span{
     background-color: #0078d4;
-   width: 34.7px;
+   max-width: 34.7px;
     height: 35px;
     border-radius: 8px;
 }
@@ -1739,7 +1725,7 @@ transform: translateY(20px);
 }
 .box-sub span{
     background-color: #0078d4;
-   width: 34.7px;
+   max-width: 34.7px;
     height: 35px;
     border-radius: 8px;
 }
@@ -1758,7 +1744,7 @@ transform: translateY(20px);
 }
 .box-pub span{
     background-color: #0078d4;
-   width: 34.7px;
+   max-width: 34.7px;
     height: 35px;
     border-radius: 8px;
 }
@@ -1781,14 +1767,6 @@ padding-top: 10px;
 transform: translateX(-9px);
 }
 
-
-
-.relax{
-@font-face {
-
-}
-}
-
 .relax1{
     justify-content: end;
     float: right;
@@ -1798,7 +1776,7 @@ transform: translateX(-9px);
     margin: 0px;
     padding: 0px;
     height: 50px;
-    width: 150.67px;
+    max-width: 150.67px;
     /* transform: translateX(10px); */
     background-color: #0078d4;
     border: none;
@@ -1843,7 +1821,6 @@ width: 100%;
  }
  .second{
     object-fit: contain;
-    width: 60%;
     margin: 10px;
     text-align: left;
     margin-left: -80px;
@@ -1875,9 +1852,6 @@ letter-spacing: 0.96px;
     display: block;
 font-weight: 400;
 }
-  
-    
-
  .new {
 display: contents; 
  }
@@ -1890,14 +1864,14 @@ display: contents;
 }
 
 .btn1 button{
-    width: 480px;
+   max-width: 480px;
     height: 52px;
     margin-left: -150px;
 
 
 }
 .btn2 button{
-    width: 480px;
+    max-width: 480px;
     height: 52px;
     margin: 9px;
     margin-left: -150px; 
@@ -1921,9 +1895,8 @@ display: contents;
     display: block;
     max-width: 540px;
 }
-.nav
 .feature h1{
-    width: 500px;
+    max-width: 500px;
     font-size: 21px;
     font-weight: 500;
     /* letter-spacing: 0.21px; */
@@ -2019,13 +1992,13 @@ position: relative;
   }
   .gartner{
     display: block;
-    width: 450px;
+    max-width: 450px;
     height: 650px;
     transform: translateX(-200px);
 
   }
   .gartner .img img{
-    width: 450px;
+    max-width: 450px;
     height: 370px;
     transform: translateY(54px);
   }
@@ -2053,7 +2026,7 @@ position: relative;
   }
   .mop div{
     display: none;
-    transform: translateX(-200px);
+    /* transform: translateX(-200px); */
     /* border: none; */
   }
   .cheveron h1{
@@ -2129,7 +2102,7 @@ height: 580px;
        display: flex; 
        flex-direction: column-reverse;
        height: 800px;
-       width: 470px;
+       max-width: 470px;
        transform: translateX(10px);
     }
     .quarter img{
@@ -2502,8 +2475,6 @@ display: block;
 .ron {
     align-items: center;
     margin-top: -30px;
-}
-.ron p{
     
 }
 .solution{
@@ -2587,22 +2558,22 @@ display: none;
 }
 .product-nav{
     /* transform: translateX(-195px); */
-    width: 100%;
+    max-width: 100%;
 }
 .product-nav .so{
-    width: 100px;
+    max-width: 100px;
 }
 .product-nav .to{
-    width: 170px;
+    max-width: 170px;
 }
 .product-nav .po{
-    width: 90px;
+    max-width: 90px;
 }
 .product-nav .do{
-    width: 100px;
+    max-width: 100px;
 }
 .product-nav .lo{
-    width: 160px
+    max-width: 160px
 }
 .grid-around{
     display: block;
@@ -2619,7 +2590,7 @@ display: none;
 .full-box{
     display: block;
  background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/ACOM-HP-Desktop-ENUS-Product-PromoCard-Phi3-Overlay@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=320&hei=560&qlt=100&fmt=png-alpha&fit=constrain");
- width: 710px;
+ max-width: 710px;
  height: 300px;
  background-size: cover;
     /* background-repeat: no-repeat; */
@@ -2647,7 +2618,7 @@ display: none;
     
 }
 .grid-1{
-    width: 710px;
+   max-width: 710px;
     height: 206px;
     /* transform: translate(-179px); */
     margin-top: 10px;
@@ -2667,13 +2638,13 @@ display: none;
 margin-top: 190px;
     display: flex;
     flex-direction: column-reverse;
-    width: 698px;
+    max-width: 698px;
     height: 748px;
     /* position: center; */
     margin-left: 25px ;
 }
 .img img{
-    width: 699px;
+    max-width: 699px;
     height: 500px;
     transform: translateY(-74px);
 }
@@ -2721,7 +2692,7 @@ height: 590px;
     width: 100%;
     }
     .relax img{
-        width: 700px;
+        max-width: 700px;
         height: 380px;
         margin: 0; 
     }
@@ -2729,7 +2700,6 @@ height: 590px;
     .global{
         display: block;
         width: 100%;
-        max-width: 859px;
         margin: 0;
     }
 .glob img{
@@ -2763,7 +2733,7 @@ height: 280px;
 
 }
 .lego{
-    width: 700px;
+    max-width: 700px;
     display: flex;
     flex-direction:column-reverse;
     height: 885px;
@@ -2771,7 +2741,7 @@ height: 280px;
 
 }
 .quarter{
-    width: 200px;
+    max-width: 200px;
     object-fit: cover;margin: 0;
     transform: none;
 }
@@ -2783,7 +2753,7 @@ height: 280px;
     transform: translateY(-30px);
 }
 .foreign img{
-    width: 707px;
+    max-width: 707px;
     height: 570px;
     transform: translateY(-16px);
 }
@@ -2838,7 +2808,7 @@ object-fit: cover;
 }
 .groot{
     height: 169px;
-    width: 710px;
+    max-width: 710px;
    transform: translateX(-195px);
    margin-top: 5px;
 }
@@ -2880,7 +2850,7 @@ object-fit: cover;
     background-color: #eaebec;
     border: none;
     height: 45px;
-    width: 800px;
+    max-width: 800px;
     transform: translateX(-80px);
     padding: 2px;
     padding-left: 15px;
@@ -2936,7 +2906,7 @@ object-fit: cover;
 
 }
 .choice p{
-    width: 100px;
+    max-width: 100px;
     font-size: 11px;
 }
 .health{
@@ -2947,7 +2917,7 @@ object-fit: cover;
     height: 100px;
     }
     .health li{
-        width: 140px;
+        max-width: 140px;
     }
     .health .us li{
         
@@ -2968,10 +2938,9 @@ object-fit: cover;
 
 
 /* laptop view */
-@media (min-width:860px) and (max-width:1080px){
+@media  (max-width:1083px){
      .nav{
         width: 100%;
-        max-width: 1080px;
      }
      .nav-left{
         /* margin: 0; */
@@ -3044,7 +3013,7 @@ transform: translateX(540px);
  }
  .second h1{
     font-size: 36px;
-    width: 500px;
+    max-width: 500px;
  }
  .second h3{
  font-family:  "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -3052,7 +3021,7 @@ font-size :17px;
 font-weight: 400;
 letter-spacing :-0.54px;
 line-height: 28px;
-width: 450px;
+max-width: 450px;
     
  }
  .btn{
@@ -3094,36 +3063,36 @@ width: 450px;
  }
  .box-cub{
 
-    width: 307px;
+    max-width: 307px;
     height: 429.86;
     /* margin: 0;
     padding: 0;
     transform: none; */
  }
  .box-sub{
-    width: 307px;
+    max-width: 307px;
  height: 429.81;
 
  }
  .box-pub{
-    width: 307px;
+    max-width: 307px;
     height: 429.81;
  }
  .box-cub img{
-    width: 291px;
+    max-width: 291px;
     height: 124.81px;
  }
  .box-sub img{
-    width: 291px;
+    max-width: 291px;
     height: 124.81px;
     
  }
  .box-pub img{
-    width: 291px;
+    max-width: 291px;
     height: 124.81px;
  }
  .pop h3{
-    width:290px;
+    max-width:290px;
     font-size: 19px;
     font-weight: 400px;
     display: block;
@@ -3169,22 +3138,21 @@ margin-top: -170px;
     width: 100%;
 }
 .scroll{
-    max-width: 1080px;
     width: 100%;
  
 }
 .scroll-ig{
     padding: 0;
     margin: 0;
-    transform: translateX(230px);
+    transform: translateX(200px);
 }
 .scroll-ig img{
-    width: 470px;
+    max-width: 470px;
     height: 370.5px;
     object-fit: cover;
 }
 .square img{
-    width: 48px;
+    max-width: 48px;
     height: 48px;
     
 }
@@ -3219,7 +3187,7 @@ transform: translateX(50px)
    .full-box{
     display: block;
  background-color: #f5fafe;
- width: 960px;
+ max-width: 960px;
  height: 411.42px;
  background-size: cover;
     margin-left: 20px;
@@ -3244,7 +3212,7 @@ letter-spacing: -1.2px;
     margin-top: 17px;
 }
 .grid-1{
-    width: 304px;
+    max-width: 304px;
     height: 270px;
     box-sizing: border-box;
 color: rgb(23, 37, 61);
@@ -3275,15 +3243,15 @@ line-height: 24px;
 /* transform: translateY(-30px); */
 }
 .gartner{
-width: 950px;
+max-width: 950px;
 height: 469px;
 }
 .gartner img{
-    width: 469px;
+    max-width: 469px;
     height: 472px;
 }
 .gart{
-    width: 485px;
+    max-width: 485px;
     height: 488px;
     transform: translateY(140px);
 }
@@ -3295,7 +3263,7 @@ font-size: 22px;
 font-weight: 560;
 letter-spacing: -1.2px;
 line-height: 32px;
-width: 400px;
+max-width: 400px;
 align-items: center;
 align-items: center;
 
@@ -3307,7 +3275,7 @@ font-size: 16px;
 font-weight: 400;
 letter-spacing: -0.48px;
 line-height: 24px;
-width: 100px;
+max-width: 100px;
 }
 .half{
     /* padding: 0; */
@@ -3329,19 +3297,12 @@ padding: 0;
 .half h1{
     font-size: 29px;
     font-weight: 600;
-    /* width: 200px; */
-}
-.list-pop {
-    /* margin-top: 30px; */
 }
 .list-pop{
     margin: 0;
-    /* padding: 0; */
-    /* height: 100px; */
 }
  .mp{
     display: flex;
-    
 }
 .mop{
      display: none;
@@ -3357,13 +3318,7 @@ padding: 0;
 
      
 } 
-.cheveron h1{
-    /* margin-top: 0; */
-    /* padding-top: 0; */
-}
-.cheveron button{
-    /* background-color: #f4fafd; */
-}
+
 .cheveron h1{
     /* padding-bottom: 20px; */
     font-size: 20px;
@@ -3379,19 +3334,17 @@ padding: 0;
     width: 100%; 
 }
 .relax img{
-    width: 614px;
+    max-width: 614px;
     height: 374.11px;
      box-sizing: border-box;
     padding: 25px;
 }
 .product-ser{
     margin-bottom: 0;
-
 }
 .global{
         display: block;
         width: 100%;
-        max-width: 1080px;
         margin: 0;
         margin-top: -45px;
         padding-top: 0;
@@ -3406,7 +3359,7 @@ padding: 0;
     font-size: 18px;
 }
 .glob button{
-    width: 140px;
+    max-width: 140px;
     transform: translateY(-20px);
 }
 .stories{
@@ -3437,14 +3390,14 @@ padding: 0;
 .lego{
     margin: 0;
     padding: 0;
-    width: 940px;
+    max-width: 940px;
     height: 437px;
     transform: translateX(49px);
 }
 .foreign img{
     display: block;
     box-sizing: border-box;
-    width: 460.5px;
+    max-width: 460.5px;
     height: 433px;
     transform: translateX(57px);
     
@@ -3459,7 +3412,7 @@ padding: 0;
     /* margin: 0; */
     /* padding:0; */
     font-size: 18px;
-    width: 400px;
+    max-width: 400px;
     /* box-sizing: border-box; */
 color: rgb(23, 37, 61);
 display: block;
@@ -3480,7 +3433,6 @@ margin-top: 150px;
     padding-left: 8px;
 }
 .seeman{
-    width: 945px;
     max-width: 1080px;
     transform: translateX(-350px);
 }
@@ -3505,7 +3457,7 @@ margin-top: 150px;
      
 }
 .groo h1{
-    width: 222.98;
+   max-width: 222.98;
     height: 36px;
     box-sizing: border-box;
 color: rgb(14, 23, 38);
@@ -3524,12 +3476,10 @@ letter-spacing: -1.5px;
 }
 .groot{
     height: 275px;
-    width: 306.60px;
-    
-    
+    max-width: 306.60px;  
 }
 .groot h3{
-    width: 260px;
+   max-width: 260px;
     /* box-sizing: border-box; */
 color: rgb(0, 41, 72);
 font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -3542,7 +3492,6 @@ margin-top: 30px;
 .groot span{
     box-sizing: border-box;
     margin-left: 30px;
-    /* width: 300px; */
 }
 .footer{
     margin-top: -178px;
@@ -3566,7 +3515,7 @@ transform: translateX(-116px);
 }
 .footer-li ul p{
     display: flex;
-    width: 150px;
+    max-width: 150px;
     font-size: 12px;
     font-weight: 600;
     gap: 10px;
@@ -3603,707 +3552,20 @@ line-height: 24px;
     width:100%;
     margin: 0;
     text-align: center;
-    
-   
-
 }
 .cheese{
     margin-left: -90px;
 }
 .choice p{
     text-align: center;
-    width: 80px;
+    max-width: 80px;
     margin-left: -3px;
 }
 .dham{
     display: flex;
-    /* align-items: flex-end; */
     float: right;
     justify-content: flex-end;
     
 }
- 
- /* --Desktop view-- */
- 
-@media (min-width:1092px) and (max-width:1732px){
-   
-    .nav{
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        /* max-width: 1732; */
-    }
-    .nav-left{
-        padding: 0;
-    }
-.nav-right{
-    max-width: 1732px;
-    width: 330px;
-}
-.rightmost{
-    width: 100%;
-    font-size: small;
-}
-.Azure button{
-    width: 105px;
-    font-size: 12px;
-    font-weight: 600;
-}
-.Signin{
-    width: 300px;
-
-}
-.con{
-    width: 400px;
-    font-size: 10px;
-    font-weight: 300;
-    /* display: block; */
-}
-.search{
-    justify-content: space-between;
-    display: flex;
-    
-}
-.search span{
-    width: 10px;
-    position: relative;
-    /* padding: 30px; */
-}
-.first{
-    width: 100%;
-    /* height: 500px; */
-}
-.header-img video{
-    margin-right: 0;
-    padding: 0;
-    object-fit: cover;
-    width:100%
-}
-.second{
-    padding: 0;
-}
-.second p{
-    margin-left: 50px;
-    font-size: 11px;
-    margin-top: 19px;
-    font-weight: 600;
-}
-.second h1{
-    color: rgb(14, 23, 38);
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 38px;
-font-weight: 600;
-letter-spacing: -2px;
-margin-left: 50px;
-width: 450px;
-}
-.second h3{
-    margin-left: 50px;
-    box-sizing: border-box;
-color: rgb(23, 37, 61);
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 17px;
-font-weight: 400;
-letter-spacing: -0.64px;
-line-height: 28px;
-width: 469px;
-}
-.btn{
-    margin-left: 50px;
-}
-.nav-like p{
-    margin-top: -20px;
-    transform: translateX(-22px);
-}
-.Azure3{
-    margin-top: -40px;
-}
-.middle{
-    width: 100%;
-}
-.feature{
-    display: block;
-    transform: translateX(-199px);
-    /* margin: 0; */
-    padding: 0;
-}
-.feature p{
-box-sizing: border-box;
-color: rgb(23, 37, 61);
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 11px;
-font-weight: 600;
-letter-spacing: 0.96px;
-}
-.feature h1{
-    box-sizing: border-box;
-color: rgb(14, 23, 38);
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 24px;
-font-weight: 590;
-letter-spacing: -1.2px;
-line-height: 32px;
-/* margin: 0; */
-}
-.box{
-    display: flex;
-    /* width: 100%; */
-    width: 1062px;
-    margin-left: 19px;
-    gap: 15px;
-    padding-bottom: 90px;
-    
-    
-}
-.box-cub{
-    width: 338.267px;
-    height: 442.417px;
-}
-.box-cub img{
-    height: 137.417px;
-    width: 320.267px;
-}
-.box-sub{
-    width: 338.267px;
-    height: 442.417px;
-}
-.box-sub img{
-    height: 137.417px;
-    width: 320.267px;
-}
-.box-pub{
-    width: 338.267px;
-    height: 442.417px;
-}
-.box-pub img{
-    height: 137.417px;
-    width: 320.267px;
-}
-.pop h3{
-    box-sizing: border-box;
-color: rgb(14, 23, 38);
-display: block;
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 17px;
-font-weight: 600;
-letter-spacing: -0.54px;
-line-height: 24px;
-margin-left: 8px;
-width:260px
-}
-.pop p{
-    align-items: flex-start;
-box-sizing: border-box;
-color: rgb(23, 37, 61);
-display: flex;
-flex-direction: column;
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 16px;
-font-weight: 400;
-letter-spacing: -0.48px;
-line-height: 24px;
-padding-inline-end: 24px;
-width: 300px;
-margin-left: 20px;
-}
-.ron p{
-    box-sizing: border-box;
-color: rgb(0, 66, 117);
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 13px;
-font-weight: 600;
-letter-spacing: -0.48px;
-line-height: 20px;
-overflow-wrap: break-word;
-padding-bottom: 2px;
-text-align: left;
-}
-.ron {
-    display: flex;
-}
-.solution{
-    margin-top: -71px;
-    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/solution-background_desktop-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=980&qlt=100&fmt=png-alpha&fit=constrain");
-    width: 100%;
-    padding-left: 50px;
-    }
-    .solution p{
-        box-sizing: border-box;
-color: rgb(23, 37, 61);
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 11px;
-font-weight: 500;
-letter-spacing: 0.96px;
-line-height: 16px;
-
-    }
-    .solution h1{
-        box-sizing: border-box;
-color: rgb(14, 23, 38);
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 22px;
-font-weight: 600;
-letter-spacing: -1.2px;
-line-height: 32px;
-    }
-    .scroll{
-        width: 100%;
-        /* margin: 0; */
-        margin-top: 80px;
-        
-    }
-    .scroll-ig{
-    padding: 0;
-    /* margin: 0; */
-    transform: translateX(230px);
-}
-.scroll-ig img{
-    width: 523.4px;
-    height: 392.5px;
-    object-fit: cover;
-    transform: translateY(-30px);
-}
-.square img{
-    padding: 0;
-    margin: 0;
-transform: none;
-      width: 48px;
-    height: 48px;
-    background-color: #0078d4;
-    
-}
-.square{
-    transform: translateY(145px);
-     margin-left: 200px
-}
-.unni{
-    margin: 0;
-    padding: 0;
-    
-}
-.unni p{
- font-size: 12px;
- font-weight: 600;
- color: #1e5985;
-}
-.product-ser{
-    margin-top: 60px;
-    max-width: 1732px;
-    margin-left: 0;
-    padding-left: 0;
-}
-.product {
-    margin-left: 50px;
-}
-.product p{
-    box-sizing: border-box;
-color: rgb(23, 37, 61);
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 11px;
-font-weight: 600;
-letter-spacing: 0.96px;
-line-height: 16px;
-padding-top: 110px;
-}
-.product h2{
-margin-top: 5px;
-box-sizing: border-box;
-color: rgb(14, 23, 38);
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 23px;
-font-weight: 580;
-letter-spacing: -1.2px;
-line-height: 36px;
-
-}
-.product-nav{
-    margin-left: 50px;
-}
-.space-full{
-    background-color: #f5fafd;
-    display: block;
-}
-.full-box{
-    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/ACOM-HP-Desktop-ENUS-Product-PromoCard-Phi3-Overlay@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=320&hei=560&qlt=100&fmt=png-alpha&fit=constrain");
-width: 100%;
- display: block;
- background-color: #f5fafe;
- width: 1026.8px;
- height: 358.217px;
- background-size: cover;
-    margin-left: 26px;
-    background-position: center;
-    transform: none;
-    padding-bottom: 98px;
-    /* padding: 0; */
-    /* margin: 0; */
-}
-.grid-around{
-    width: 100%;
-    margin-left: 12px;
-}
-.grid-1{
-    width: 328.127px;
-    height: 270px;
-}
-.grid-1 h4{
-    font-size: 17px;
-    margin-top: 0;
-}
-.grid-1 span{
-    box-sizing: border-box;
-    font-size: 14px;
-    box-sizing: border-box;
-color: rgb(23, 37, 61);
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 15px;
-font-weight: 400;
-letter-spacing: -0.48px;
-line-height: 24px;   
-}
-.gartner{
-    /* background-color: #f4fafd; */
-    height: 470px;
-    width: 992.5px;
-    margin-bottom: 0;
-    padding-bottom: 6px;
-    padding-right: 7px;
-}
-.gart{
-    width: 100%;
-    
-}
-.img img{
-    width: 479.3px;
-    height: 472px;
-    object-fit: cover;
-}
-.gart h1{
-    box-sizing: border-box;
-color: rgb(14, 23, 38);
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 22px;
-font-weight: 600;
-letter-spacing: -1.2px;
-line-height: 32px;
-}
-.gart span{
-    box-sizing: border-box;
-    color: rgb(23, 37, 61);
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 15px;
-font-weight: 400;
-letter-spacing: -0.48px;
-line-height: 24px;
-position: relative;
-width: 100px;
-}
-.gart button{
-    display: block;
-
-}
-.half{
-    /* margin: 0; */
-    padding: 0;
-    margin-top: 120px;
-}
-.half h1{
-   box-sizing: border-box;
-   color: rgb(14, 23, 38);
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 29px;
-font-weight: 600;
-letter-spacing: -1.5px
-}
-.list-pop{
-    width: 90%;
-}
-.mp span{
- display: flex;
- width: 100px;
-}
-.mop span{
-    display: none;
-}
-.cheveron{
-    width: 100%;
-    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/resources-background_desktop@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=768&qlt=85&fmt=png-alpha&fit=constrain");
-  height: 544px;
-  /* padding-bottom: 30px; */
-  
-}
-.relax img{
-    margin-top: 20px;
-    width: 609.66px;
-    height: 340.11px;
-    object-fit: cover;
-    margin-bottom: 20px;
-}
-.cheveron h1{
-    color: rgb(14, 23, 38);
-display: block;
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 19px;
-font-weight: 600;
-letter-spacing: -1px;
-line-height: 28px;
-margin-bottom: 0px;
-text-align: center;
-}
-.cheveron button{
-    height: 35px;
-    width: 34.7px;
-    margin-top: 10px;
-}
-.global{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-.glob img{
-width: 100%;
-}
-.stories{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-.master{
-    margin: 0;
-    padding: 0;
-}
-.master p{
-    margin:0
-}
-.lego{
-width: 976.59px;
-height: 428px;
-    transform: none;
-    margin-left: 52px;
-}
-.foreign img{
-    width: 479px;
-    height: 435px;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-.writings h2{
-  box-sizing: border-box;
-  color: rgb(23,37,61);
-  display: block;
-  font-size: 19px;
-  font-weight: 600px;
-  letter-spacing: -1px;
-  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-   padding: 0;
-   margin-top: 130px;
-   line-height: 28px;
-}
-.quarter img{
-    margin: 0;
-    padding: 0;
-    transform: translateY(130px);
-    margin-bottom: 10px;
-}
-.AKS{
-    margin: 0;
-    padding: 0;
-    transform: translateY(-90px);
-}
-.AKS button{
- width: 100px;
-}
-.master p{
-    margin-left: 0;
-    padding-left: 50px;
-}
-.master h2{
-    margin-top: 10px;
-    padding-left: 30px;
-    margin-bottom: 30px;
-    box-sizing: border-box;
-color: rgb(14, 23, 38);
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 22px;
-font-weight: 600;
-letter-spacing: -1.2px;
-}
-.seeman{
-    width: 85%;
-    /* margin: 0; */
-    margin-left: 60px;
-}
-.boxer img{
-   width: 130px;
-   height: 56.4px;
-   /* margin: 0; */
-   /* padding: 0; */
-}
-.janco{
-    margin-left: 50px;
-}
-.last-grid{
-    margin-top: -227px;
-    transform: none;
-    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CTA-BG-desktop@2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=512&qlt=100&fmt=png-alpha&fit=constrain");
-    padding-top: 0;
-    width: 100%;
-    /* margin-bottom: -10px; */
-    height: 560px;
-    margin-bottom: 0;
-    padding-bottom: 260px;
-    margin-bottom: -220px;
-}
-.groo{
-    margin-top: -94px;
-    padding-top: 90px;
-}
-.groo h1{
-    box-sizing: border-box;
-color: rgb(14, 23, 38);
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 27px;
-font-weight: 600;
-letter-spacing: -1.5px;
-word-spacing: normal;
-}
-.footer{
-    margin: 0;
-    /* padding: 0; */
-    /* transform: none; */
-    height: 450px;
-    width: 100%;
-}
-.pro{
-    width: 100%;
-    display: flex;
-    /* transform: none; */
-}
-.groot{
-    /* box-sizing: border-box; */
-    
-   width: 314.84px;
-   height: 277px;
-   margin-left: 15px;
-   padding-left: 0;
-   transform: translateX(-290px);
-   
-}
-.groot h3{
-   box-sizing: border-box;
-color: rgb(14, 23, 38);
-display: block;
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 18px;
-font-weight: 600;
-letter-spacing: -1px;
-
-}
-.groot span{
- width: 200px;
- box-sizing: border-box;
-color: rgb(0, 41, 72);
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 16px;
-font-weight: 400;
-letter-spacing: -0.48px;
-line-height: 24px;
-margin-bottom: 0px;
-
-}
-.groot button p{
-    /* display: flex; */
-    /* margin: 0; */
-    /* padding: 0; */
-    transform: translateY(-28px);
-    width: 130px;
-    box-sizing: border-box;
-color: rgb(0, 66, 117);
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 12px;
-font-weight: 600;
-letter-spacing: -0.48px;
-line-height: 20px;
-margin-left: 9px;
-}
-.groot button{
-  align-items: center;
-  justify-content: center;
-  
-}
-.groot button .fa-chevron-right{
-    margin: 0;
-    padding: 0;
-}
-.app{
-    display: none;
-}
-.language{
-    /* height: 200px; */
-    width: 100%;
-    margin-top:-30px;
-    margin-left: 0;
-}
-.footer-li{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 140px 170px 140px 130px 150px 160px ;
-    margin-left: 20px;
-    }
-.footer-li p{
-    width: 130px;
-    color: rgb(97, 97, 97);
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 15px;
-font-weight: 600;
-letter-spacing: normal;
-line-height: 20px;
-}
-.footer-li li{
-    background-color: rgba(0, 0, 0, 0);
-box-sizing: border-box;
-color: rgba(0, 0, 0, 0.9);
-font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 11px;
-font-weight: 400;
-letter-spacing: normal;
-line-height: 16px;
-width: 150px;
-}
-.dham{
-    display: none;
-    
-}
-.relax1{
-    transform: translateY(-50px);
-}
-.relax1 button{
-    margin-bottom: -20px;
-    color: floralwhite;
-}
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
  
-  
-
-
-    
- 
-
-
-
